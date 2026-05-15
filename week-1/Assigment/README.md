@@ -1,5 +1,4 @@
 
-
 # 📝 Week 1 — Assignments
 
 > **Introduction to Web Development & HTML Basics** | [NextGen Arts](https://nextgenarts.pk)

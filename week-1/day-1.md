@@ -35,29 +35,29 @@
 ## 📖 Lesson Content
 
 ###  1. what is Internet 
- The Internet is a global network that connects computers and devices so people can share information and use websites online.
+ * The Internet is a global network that connects computers and devices so people can share information and use websites online.
 ---
 
 ### 2. Client-Server Model 
- The client (browser/user) sends a request, and the server sends back the website or data.
+*  The client (browser/user) sends a request, and the server sends back the website or data.
 ---
 ### 3. DNS 
- DNS changes website names like google.com into IP addresses so computers can find websites.
+*  DNS changes website names like google.com into IP addresses so computers can find websites.
 ---
 
 ### 4. Website
- A website is a collection of web pages that people can open in a browser on the Internet.
+* A website is a collection of web pages that people can open in a browser on the Internet.
 ---
 
 ### 5. Frontend vs Backend
-Frontend → The part of the website users can see and interact with.
+* Frontend → The part of the website users can see and interact with.
 Backend → The hidden part that manages data, servers, and website functions.
 ---
 
 ### 6. HTML, CSS and JavaScript
-HTML → Used to create the structure of a webpage.
-CSS → Used to design and style the webpage.
-JavaScript → Used to add actions and interactivity to the webpage.
+* HTML → Used to create the structure of a webpage.
+* CSS → Used to design and style the webpage.
+* JavaScript → Used to add actions and interactivity to the webpage.
 ---
 
 ### 7. What is Web Development?
