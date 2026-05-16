@@ -1,89 +1,53 @@
-Got it 👍 Here is your **Week 2 README file in the same exact style as your Week 1 format**:
+# 📅 Week 2: CSS Fundamentals & Styling 🎨
+
+## 🎯 Learning Objectives
+
+- 🎨 Understand CSS syntax, selectors, and specificity
+- 📦 Master the CSS box model (margin, padding, border)
+- 🔤 Apply typography, colors, and Google Fonts
+- 🌈 Use backgrounds, gradients, shadows, and transitions
+- 🚀 Style the Week 1 bio page into a beautiful webpage
 
 ---
 
-# 📅 Week 2: HTML Forms, GitHub & CSS Fundamentals + Visual Effects
+## 📋 Daily Breakdown
 
-Frontend Web Development Course | NextGen Arts
-
----
-
-## 🎯 Week 2 Learning Objectives
-
-By the end of this week, students will be able to:
-
-* 🧾 Understand and create HTML Forms
-* 🔤 Use different input types in forms
-* 🌐 Understand what GitHub is and why it is used
-* 🏗️ Create a GitHub profile and repository
-* 🚀 Push projects to GitHub using Git commands
-* 🎨 Understand CSS and its types
-* 🧠 Apply CSS properties to style webpages
-* 📦 Learn Box Model, Spacing, and Typography
-* ✨ Create modern UI Visual Effects using CSS
-
----
-
-## 📋 Week Overview
-
-| Day   | Topic                                                    | Duration |
-| ----- | -------------------------------------------------------- | -------- |
-| Day 1 | HTML Forms & Input Types                                 | 2 Hours  |
-| Day 2 | GitHub Introduction & Profile Setup                      | 2 Hours  |
-| Day 3 | CSS Introduction, Types & Properties                     | 2 Hours  |
-| Day 4 | Box Model, Spacing & Typography                          | 2 Hours  |
-| Day 5 | Visual Effects (Hover, Shadow, Transition)               | 2 Hours  |
-| Day 6 | Advanced UI Effects (Gradient, Animation, Glassmorphism) | 2 Hours  |
+| Day | Topic | Duration |
+|-----|-------|----------|
+| [Day 5](day-01.md) | HTML form tag and Semantic and Non-Semantic Tags|2 hours|
+| [Day 1](day-02.md) | CSS Syntax, Selectors & Specificity | 2 hours |
+| [Day 2](day-03.md) | The Box Model — Margin, Padding & Border | 2 hours |
+| [Day 3](day-04.md) | Colors, Typography & Google Fonts | 2 hours |
+| [Day 4](day-05.md) | Backgrounds, Gradients & Shadows | 2 hours |
+| [Day 6](day-06.md) | Transitions, Transforms & Project Day | 2 hours |
 
 ---
 
 ## 📝 Weekly Assignment
 
-👉 Build a complete project using:
+👉 [View Weekly Assignment](assignments/README.md)
 
-**Project:** Student Registration Web Page
-
-It must include:
-
-* HTML Form (Name, Email, Phone, Gender)
-* CSS Styling
-* Box Model (Padding, Margin, Border)
-* Typography (Fonts, Size, Alignment)
-* Visual Effects (Hover, Shadow, Transition)
-* GitHub Repository Upload
+**Project:** Style your **Personal Bio Page** from Week 1 with CSS — add colors, fonts, layout, hover effects, and a polished professional look.
 
 ---
 
 ## 🔑 Key Concepts
 
-* HTML Form Structure
-* Input Types (text, email, password, checkbox, radio)
-* GitHub Workflow (repo, commit, push)
-* CSS Selectors (class, id)
-* Box Model (content, padding, border, margin)
-* Typography (font-size, font-family, line-height)
-* Visual Effects (hover, transform, shadow, transition)
+- CSS Selectors (element, class, ID, attribute, pseudo-class)
+- Specificity hierarchy and cascade
+- Box Model (content → padding → border → margin)
+- CSS Units (px, em, rem, %, vh, vw)
+- Display values (block, inline, inline-block, none)
+- Position values (static, relative, absolute, fixed, sticky)
 
 ---
 
 ## 📚 Resources
 
-* [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [https://github.com](https://github.com)
-* [https://www.w3schools.com](https://www.w3schools.com)
+- [MDN — CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+- [CSS-Tricks — Complete Guide](https://css-tricks.com/)
+- [Google Fonts](https://fonts.google.com/)
 
 ---
 
-## 🚀 Project Outcome
-
-By the end of Week 2, students will be able to:
-
-* Build a styled form page
-* Design modern UI using CSS
-* Upload projects to GitHub
-* Understand real-world frontend workflow
-
----
-
-[← Back to Week 1](../README.md)
+[← Back to Course Home](../README.md) | [← Week 1](../week-1/README.md) | [Week 3 →](../week-3/README.md)

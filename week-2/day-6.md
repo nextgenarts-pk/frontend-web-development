@@ -223,3 +223,4 @@ Design a modern UI landing page using:
 * Animations
 
 ---
+[← Previous Day](day-5.md) | [Back to Week 2](README.md) | [Next Week →](../week-3/README.md)

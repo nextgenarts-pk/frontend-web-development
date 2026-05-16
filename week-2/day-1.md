@@ -22,6 +22,7 @@
 ## 🎯 Today's Goals
 
 * HTML Forms
+* Semantic and Non-Semantic Tags
 
 ## 📖 Lesson Content
 
@@ -149,6 +150,98 @@ The `<form>` tag is used to create a form in HTML.
 
 ---
 
+## Difference Between Semantic and Non-Semantic Tags
+
+| Semantic Tags                    | Non-Semantic Tags           |
+| -------------------------------- | --------------------------- |
+| Describe meaning of content      | Do not describe content     |
+| Better for SEO                   | Mainly for styling/layout   |
+| Easy to understand               | Generic containers          |
+| Examples: `<header>`, `<footer>` | Examples: `<div>`, `<span>` |
+
+## What are Semantic and Non-Semantic Tags?
+
+### Semantic Tags
+
+Semantic tags are HTML tags that clearly describe the meaning of the content.
+
+👉 These tags tell both the browser and developer what the content represents.
+
+### Examples of Semantic Tags
+
+```html id="v1k8m3"
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<footer></footer>
+<main></main>
+```
+
+### Benefits of Semantic Tags
+
+* Better website structure
+* Easy to read and understand
+* Improves SEO
+* Helps screen readers and accessibility
+
+---
+
+## Non-Semantic Tags
+
+Non-semantic tags do not describe the meaning of the content.
+
+👉 They are mainly used for layout and styling.
+
+### Examples of Non-Semantic Tags
+
+```html id="n7p2x5"
+<div></div>
+<span></span>
+```
+
+### Why They Are Called Non-Semantic?
+
+Because they do not explain what content is inside them.
+
+Example:
+
+```html id="k4m9t1"
+<div>This is content</div>
+```
+
+Here, `<div>` does not tell whether it is a header, footer, or section.
+
+---
+
+## Difference Between Semantic and Non-Semantic Tags
+
+| Semantic Tags                    | Non-Semantic Tags           |
+| -------------------------------- | --------------------------- |
+| Describe meaning of content      | Do not describe content     |
+| Better for SEO                   | Mainly for styling/layout   |
+| Easy to understand               | Generic containers          |
+| Examples: `<header>`, `<footer>` | Examples: `<div>`, `<span>` |
+
+---
+
+## Simple Example
+
+```html id="z5x8c2"
+<header>
+   <h1>My Website</h1>
+</header>
+
+<section>
+   <p>This is semantic content.</p>
+</section>
+
+<div>
+   This is non-semantic content.
+</div>
+```
+---
+
 ## ✍️ Hands-On Exercise
 
 Students will create:
@@ -190,3 +283,5 @@ Today we learned:
 ### HTML ends here with this, And add this to the Week 1 assignment.
 
 ---
+[← Previous Day](../week-1/day-06.md) | [Back to Week 2](README.md) | [Next Day →](day-2.md)
+

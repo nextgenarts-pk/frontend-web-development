@@ -21,7 +21,17 @@ It contains:
 * Padding
 * Border
 * Margin
-
+```
+┌─────────────── Margin ───────────────┐
+│  ┌─────────── Border ─────────────┐  │
+│  │  ┌─────── Padding ──────────┐  │  │
+│  │  │  ┌──── Content ───────┐  │  │  │
+│  │  │  │   Your text/image  │  │  │  │
+│  │  │  └────────────────────┘  │  │  │
+│  │  └──────────────────────────┘  │  │
+│  └────────────────────────────────┘  │
+└──────────────────────────────────────┘
+```
 ---
 
 ## 2. Width & Height
@@ -258,3 +268,4 @@ Apply these properties to your assignment.
 * Typography Properties
 
 ---
+[← Previous Day](day-3.md) | [Back to Week 2](README.md) | [Next Day →](day-5.md)

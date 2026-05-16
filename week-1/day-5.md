@@ -38,3 +38,5 @@ Create a webpage containing:
 Prepare for Sunday Mini Project.
 
 ---
+[← Previous Day](day-4.md) | [Back to Week 1](README.md) | [Next Day →](day
+-6.md)

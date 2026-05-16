@@ -264,3 +264,4 @@ Apply these properties to your assignment.
 * Font size
 
 ---
+[← Previous Day](day-2.md) | [Back to Week 2](README.md) | [Next Day →](day-4.md)

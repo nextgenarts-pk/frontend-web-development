@@ -44,6 +44,10 @@ Bagh, Azad Kashmir
 <span>Inline Text</span>
 
 <div>Block Section</div>
+<header>Block element</header>
+<nav>Navigation</nav>
+<section>Block element </section>
+<footer>Block element </Footer>
 ```
 
 ---
@@ -91,3 +95,4 @@ Create:
 Make a webpage showing your daily routine using lists.
 
 ---
+[← Previous Day](day-2.md) | [Back to Week 1](README.md) | [Next Day →](day-04.md)

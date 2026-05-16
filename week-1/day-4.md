@@ -82,5 +82,5 @@ Create:
 ## 📝 Homework
 
 Create a school timetable using HTML table.
-
 ---
+[← Previous Day](day-3.md) | [Back to Week 1](README.md) | [Next Day →](day-5.md)

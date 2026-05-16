@@ -160,3 +160,4 @@ Today we learned:
 * How to commit and push projects to GitHub
 
 ---
+[← Previous Day](day-1.md) | [Back to Week 2](README.md) | [Next Day →](day-3.md)

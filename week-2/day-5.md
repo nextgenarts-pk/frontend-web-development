@@ -199,5 +199,4 @@ Design a modern UI card using:
 * Transform effect
 
 ---
-
- 
+[← Previous Day](day-4.md) | [Back to Week 2](README.md) | [Next Day →](day-6.md)
