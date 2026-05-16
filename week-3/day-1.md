@@ -1,4 +1,4 @@
-# **Week 3: CSS Layouts: Flexbox & Grid , Media Queries** | [NextGen Arts](https://nextgenarts.pk?utm_source=chatgpt.com)
+# **Week 3: CSS Layouts: Flexbox & Grid , Media Queries** | [NextGen Arts](https://nextgenarts.pk)
 
 ---
 ## 📋 Prerequisites
