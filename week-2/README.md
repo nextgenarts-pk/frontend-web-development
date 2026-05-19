@@ -14,11 +14,11 @@
 
 | Day | Topic | Duration |
 |-----|-------|----------|
-| [Day 5](day-01.md) | HTML form tag and Semantic and Non-Semantic Tags|2 hours|
-| [Day 1](day-02.md) | CSS Syntax, Selectors & Specificity | 2 hours |
-| [Day 2](day-03.md) | The Box Model — Margin, Padding & Border | 2 hours |
-| [Day 3](day-04.md) | Colors, Typography & Google Fonts | 2 hours |
-| [Day 4](day-05.md) | Backgrounds, Gradients & Shadows | 2 hours |
+| [Day 1](day-01.md) | HTML form tag and Semantic and Non-Semantic Tags|2 hours|
+| [Day 2](day-02.md) | GitHub introduction| 2 hours |
+| [Day 3](day-03.md) | The Box Model — Margin, Padding & Border | 2 hours |
+| [Day 4](day-04.md) | Colors, Typography & Google Fonts | 2 hours |
+| [Day 5](day-05.md) | Backgrounds, Gradients & Shadows | 2 hours |
 | [Day 6](day-06.md) | Transitions, Transforms & Project Day | 2 hours |
 
 ---

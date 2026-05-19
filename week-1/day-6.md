@@ -1,6 +1,7 @@
 # 📅 Day 6 — Mini HTML Project
 
 # 🎯 Today's Goals
+
 * A short quiz will also be held.
 * Combine all HTML concepts
 ---
@@ -10,27 +11,29 @@
 * short quiz
 * Project Structure
 
-# Create:
+### Create:
 
-“About Me” Webpage
+* "About Me" Webpage
 ---
 
 ### Include:
 
-Name
-Introduction
-Image
-Hobbies
-Favorite websites
+* Name
+* Introduction
+* Image
+* Hobbies
+* Favorite websites
+
 ---
 
-✍️ Hands-On Exercise
+## ✍️ Hands-On Exercise
 
-Students create complete webpage independently.
+* Students create complete webpage independently.
 ---
 
 ### 📝 Homework
 
-Improve webpage design and content.
+* Improve webpage design and content.
+---
 
 [← Previous Day](day-5.md) | [Back to Week 1](README.md) | [Next Week →](../week-2/README.md)
