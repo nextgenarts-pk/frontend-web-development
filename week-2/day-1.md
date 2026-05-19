@@ -1,4 +1,4 @@
-# **Week 2: HTML Form , CSS introduction and properties** | [NextGen Arts](https://nextgenarts.pk?utm_source=chatgpt.com)
+# **Week 2: HTML Form , CSS introduction and properties** | [NextGen Arts](https://nextgenarts.pk)
 
 ---
 ## 📋 Prerequisites

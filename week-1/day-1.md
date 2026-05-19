@@ -1,6 +1,4 @@
-# **Week 1: Introduction to Frontend Web Development** | [NextGen Arts](https://nextgenarts.pk?utm_source=chatgpt.com)
-
----
+# **Week 1: Introduction to Frontend Web Development** | [NextGen Arts](https://nextgenarts.pk)
 
 ## 📋 Prerequisites
 
