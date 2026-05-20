@@ -1,11 +1,9 @@
-Here is your **Week 2 Assignment in the same professional style as Week 1**:
-
+**Week 2 Assignment in the same professional style as Week 1**|[NextGen Arts](https://nextgenarts.pk)
 ---
 
 # 📝 Week 2 — Assignments
 
-> **HTML Forms, GitHub & CSS Fundamentals + Visual Effects** | [NextGen Arts](https://nextgenarts.pk)
-
+> **HTML Forms, GitHub & CSS Fundamentals + Visual Effects**
 ---
 
 ## 🎯 Weekly Assignment: Student Registration Web Project

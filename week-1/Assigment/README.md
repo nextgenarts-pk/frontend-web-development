@@ -1,7 +1,4 @@
-
-# 📝 Week 1 — Assignments
-
-> **Introduction to Web Development & HTML Basics** | [NextGen Arts](https://nextgenarts.pk)
+# 📝 Week 1 — Assignments | [NextGen Arts](https://nextgenarts.pk)
 
 ---
 
@@ -48,12 +45,12 @@ Build a complete **Personal Bio Page** using only HTML5 (no CSS yet). This is yo
 
 ✅ Before Submitting
 
-* 1. Website opens correctly
-* 2. All sections are completed
-* 3. Image is visible
-* 4. Links are working
-* 5. Table is added
-* 6. HTML structure is correct
+* Website opens correctly
+* All sections are completed
+* Image is visible
+* Links are working
+* Table is added
+* HTML structure is correct
 
 ---
 
