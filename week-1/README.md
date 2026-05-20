@@ -13,8 +13,11 @@ By the end of this week, students will be able to:
 * 💻 Set up and use VS Code
 * 🔗 Create links, images, lists, and tables in HTML
 * 🚀 Build a complete Personal Bio webpage project
+---
+
 ## 📋 Week Overview
 Day	Topic	Duration
+
 * Day 1	Introduction to Web Development & Internet Basics	|2 Hours|
 * Day 2	VS Code, HTML Boilerplate & Basic Text Tags	|2 Hours|
 * Day 3	Lists, Special Tags & Structure Tags	|2 Hours|
