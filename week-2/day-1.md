@@ -1,4 +1,4 @@
-# **Week 2: HTML Form , CSS introduction and properties** | [NextGen Arts](https://nextgenarts.pk)
+# Week 2: HTML Form , CSS introduction and properties
 
 ---
 ## 📋 Prerequisites
@@ -17,23 +17,18 @@
 
 ---
 
-# 📅 Day 1 — Introduction to Web Development and Internet
+# 📅 Day 1 — HTML From Tag & Semantic and Non-Semantic Tags
 
 ## 🎯 Today's Goals
-
-* HTML Forms
-* Semantic and Non-Semantic Tags
-
-## 📖 Lesson Content
 
 * Understand what an HTML form is
 * Use the `<form>` tag
 * Create different input fields
 * Build a simple registration form
-
+* Semantic and Non-Semantic Tags
 ---
 
-# Introduction
+## 📖 Lesson Content
 
 HTML forms are used to collect user data such as:
 
@@ -77,43 +72,43 @@ The `<form>` tag is used to create a form in HTML.
 
 # Input Types
 
-## Text Input
+### Text Input
 
 ```html
 <input type="text">
 ```
 
-## Email Input
+### Email Input
 
 ```html
 <input type="email">
 ```
 
-## Password Input
+### Password Input
 
 ```html
 <input type="password">
 ```
 
-## Number Input
+### Number Input
 
 ```html
 <input type="number">
 ```
 
-## Radio Button
+### Radio Button
 
 ```html
 <input type="radio">
 ```
 
-## Checkbox
+### Checkbox
 
 ```html
 <input type="checkbox">
 ```
 
-## Submit Button
+### Submit Button
 
 ```html
 <input type="submit">
@@ -121,7 +116,7 @@ The `<form>` tag is used to create a form in HTML.
 
 ---
 
-## Simple Form Example
+### Simple Form Example
 
 ```html
 <!DOCTYPE html>
@@ -225,20 +220,52 @@ Here, `<div>` does not tell whether it is a header, footer, or section.
 
 ---
 
-## Simple Example
+## ✅ Void / Empty Tags List
 
-```html id="z5x8c2"
-<header>
-   <h1>My Website</h1>
-</header>
+* `<br>` → line break
+* `<hr>` → horizontal line
+* `<img>` → image
+* `<input>` → input field
+* `<meta>` → metadata
+* `<link>` → CSS file connect
+* `<area>` → image map area
+* `<col>` → table column settings
+---
 
-<section>
-   <p>This is semantic content.</p>
-</section>
+### Example
 
-<div>
-   This is non-semantic content.
-</div>
+```html id="5dfgmf"
+<p>Hello<br>World</p>
+
+<img src="image.jpg" alt="pic">
+
+<hr>
+
+<input type="text">
+```
+
+---
+
+#  Types of Tags
+
+## 1. Container Tags
+
+* These have both opening and closing tags.
+
+```html id="8ks6pk"
+<p>Hello</p>
+<div></div>
+```
+----
+
+## 2. Empty/Void Tags
+
+* These do not have closing tags.
+
+```html id="j5h4fd"
+<br>
+<img>
+<hr>
 ```
 ---
 
@@ -270,18 +297,9 @@ Create a Student Registration Form using:
 
 ---
 
-# Conclusion
-
-Today we learned:
-
-* What HTML forms are
-* Form tags
-* Input types
-* How to create a simple form
-
----
 ### HTML ends here with this, And add this to the Week 1 assignment.
 
 ---
 [← Previous Day](../week-1/day-06.md) | [Back to Week 2](README.md) | [Next Day →](day-2.md)
 
+                    

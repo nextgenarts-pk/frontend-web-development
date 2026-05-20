@@ -5,7 +5,7 @@
 * VS Code Introduction & Installation
 * Learn html Boilerplate
 * Learn html tags
-* Create simple webpage text
+* Create Profile website
 ---
 
 ## 📖 Lesson Content
