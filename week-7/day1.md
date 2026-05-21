@@ -9,12 +9,6 @@ functions, arrays, and basic DOM interaction.
 
 ## 🧠 Topics Covered
 
-- What are functions?
-- Function declaration
-- Parameters and arguments
-- Return statement
-- Arrow functions
-
 ## 📘 Explanation
 
 Functions help organize reusable code.
