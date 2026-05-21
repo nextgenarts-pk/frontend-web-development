@@ -1,4 +1,11 @@
-# 📅 Day 6 — Functions in JavaScript
+# Week 7 — JavaScript Fundamentals
+
+## 🎯 Week Goal
+
+By the end of this week, students will understand the core fundamentals of JavaScript including
+functions, arrays, and basic DOM interaction.
+
+# 📅 Day 1 — Functions in JavaScript
 
 ## 🧠 Topics Covered
 

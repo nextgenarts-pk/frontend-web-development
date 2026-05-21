@@ -2,7 +2,7 @@
 
 ## 🎯 Week Goal
 
-By the end of this week, students will understand the core fundamentals of JavaScript including variables, data types, operators, conditions, loops, functions, arrays, and basic DOM interaction.
+By the end of this week, students will understand the core fundamentals of JavaScript including variables, data types, operators, conditions, loops.
 
 ---
 
