@@ -1,4 +1,4 @@
-# 📅 Day 3 — Operators in JavaScript
+# 📅 Day 3 — Wednesday Operators:
 
 ## 🧠 Topics Covered
 

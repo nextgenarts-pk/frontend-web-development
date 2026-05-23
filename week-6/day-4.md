@@ -1,40 +1,55 @@
-# 📅 Day 4 — Conditional Statements
+# 📅 Day 4 — Thrusday: Template Literals in JavaScript
 
-## 🧠 Topics Covered
+## 🧠 What are Template Literals?
 
-- `if` statement
-- `else` statement
-- `else if`
-- Nested conditions
-- Switch statement
+Template Literals are a modern way to create strings in JavaScript.
 
----
+Instead of using the `+` operator repeatedly, we can use:
 
-# 📘 Explanation
+- Backticks `` ` ``
+- `${}` placeholders
 
-Conditional statements allow programs to make decisions.
-
-They check conditions and run different code based on whether the condition is:
-
-- `true`
-- `false`
-
-Conditional statements are very important in programming because they make programs smart and interactive.
+This makes code cleaner, easier to read, and easier to maintain.
 
 ---
 
-# 📘 `if` Statement
+# 📘 Traditional String Concatenation
 
-The `if` statement runs code only if the condition is true.
+Before Template Literals, strings were combined using the `+` operator.
+
+## 💻 Example
+
+```javascript
+const name = "Ali";
+const age = 17;
+
+let message = "Mera naam " + name + " hai, umar " + age + " saal";
+
+console.log(message);
+```
+
+### 📝 Output
+
+```javascript
+Mera naam Ali hai, umar 17 saal
+```
+
+### ❌ Problems
+
+- Hard to read
+- Too many `+` signs
+- Becomes messy with large strings
 
 ---
+
+# 📘 Template Literals
+
+Template Literals use backticks instead of quotes.
 
 ## 💻 Syntax
 
 ```javascript
-if (condition) {
-  // code
-}
+`Text ${variable}`;
 ```
 
 ---
@@ -42,239 +57,223 @@ if (condition) {
 ## 💻 Example
 
 ```javascript
-let age = 18;
+const name = "Ali";
+const age = 17;
+const city = "Skardu";
 
-if (age >= 18) {
-  console.log("You are eligible");
-}
+let message = `Mera naam ${name} hai, umar ${age} saal, ${city} se hoon`;
+
+console.log(message);
 ```
 
 ### 📝 Output
 
 ```javascript
-You are eligible
+Mera naam Ali hai, umar 17 saal, Skardu se hoon
 ```
 
 ---
 
-# 📘 `else` Statement
+# 📘 Understanding `${}`
 
-The `else` statement runs when the condition is false.
+`${}` is called an expression placeholder.
 
----
+It allows us to insert:
 
-## 💻 Syntax
+- Variables
+- Calculations
+- Expressions
+- Function calls
 
-```javascript
-if (condition) {
-  // true code
-} else {
-  // false code
-}
-```
+directly inside a string.
 
 ---
 
 ## 💻 Example
 
 ```javascript
-let age = 16;
+const name = "Ali";
 
-if (age >= 18) {
-  console.log("You are eligible");
-} else {
-  console.log("You are not eligible");
-}
+console.log(`Hello ${name}`);
 ```
 
 ### 📝 Output
 
 ```javascript
-You are not eligible
+Hello Ali
 ```
 
 ---
 
-# 📘 `else if` Statement
+# 📘 Using Calculations Inside Template Literals
 
-`else if` is used to check multiple conditions.
-
----
-
-## 💻 Syntax
-
-```javascript
-if (condition1) {
-  // code
-} else if (condition2) {
-  // code
-} else {
-  // code
-}
-```
+One of the biggest advantages of Template Literals is that calculations can be performed directly inside `${}`.
 
 ---
 
 ## 💻 Example
 
 ```javascript
-let marks = 75;
+const age = 17;
 
-if (marks >= 90) {
-  console.log("Grade A");
-} else if (marks >= 70) {
-  console.log("Grade B");
-} else {
-  console.log("Grade C");
-}
+let message = `Aglay saal ${age + 1} saal ka hounga`;
+
+console.log(message);
 ```
 
 ### 📝 Output
 
 ```javascript
-Grade B
+Aglay saal 18 saal ka hounga
 ```
 
 ---
 
-# 📘 Nested Conditions
+# 📘 Line-by-Line Explanation
 
-Nested conditions mean using one condition inside another condition.
+## 💻 Code
+
+```javascript
+const name = "Ali";
+const age = 17;
+const city = "Skardu";
+```
+
+### Explanation
+
+Three variables are created:
+
+- `name` stores `"Ali"`
+- `age` stores `17`
+- `city` stores `"Skardu"`
 
 ---
 
-## 💻 Example
+## 💻 Code
 
 ```javascript
-let age = 20;
-let hasID = true;
+let msg1 = "Mera naam " + name + " hai, umar " + age + " saal";
+```
 
-if (age >= 18) {
-  if (hasID) {
-    console.log("Entry Allowed");
-  } else {
-    console.log("ID Required");
-  }
-} else {
-  console.log("Under Age");
-}
+### Explanation
+
+This uses the old string concatenation method.
+
+JavaScript joins multiple strings together using the `+` operator.
+
+### Output
+
+```javascript
+Mera naam Ali hai, umar 17 saal
+```
+
+---
+
+## 💻 Code
+
+```javascript
+let msg2 = `Mera naam ${name} hai, umar ${age} saal, ${city} se hoon`;
+```
+
+### Explanation
+
+This uses a Template Literal.
+
+Values stored in variables are inserted directly into the string using `${}`.
+
+### Output
+
+```javascript
+Mera naam Ali hai, umar 17 saal, Skardu se hoon
+```
+
+---
+
+## 💻 Code
+
+```javascript
+console.log(msg2);
+```
+
+### Explanation
+
+Prints the message stored in `msg2`.
+
+### Output
+
+```javascript
+Mera naam Ali hai, umar 17 saal, Skardu se hoon
+```
+
+---
+
+## 💻 Code
+
+```javascript
+let msg3 = `Aglay saal ${age + 1} saal ka hounga`;
+```
+
+### Explanation
+
+JavaScript first calculates:
+
+```javascript
+17 + 1;
+```
+
+Result:
+
+```javascript
+18;
+```
+
+Then inserts the value into the string.
+
+### Output
+
+```javascript
+Aglay saal 18 saal ka hounga
+```
+
+---
+
+# 📘 Why Use Template Literals?
+
+## ✅ Advantages
+
+- Cleaner code
+- Easy to read
+- Less typing
+- Supports calculations
+- Supports multiline strings
+- Preferred modern JavaScript method
+
+---
+
+# 💻 Full Example
+
+```javascript
+const name = "Ali";
+const age = 17;
+const city = "Skardu";
+
+let msg1 = "Mera naam " + name + " hai, umar " + age + " saal";
+
+let msg2 = `Mera naam ${name} hai, umar ${age} saal, ${city} se hoon`;
+
+let msg3 = `Aglay saal ${age + 1} saal ka hounga`;
+
+console.log(msg1);
+console.log(msg2);
+console.log(msg3);
 ```
 
 ### 📝 Output
 
 ```javascript
-Entry Allowed
-```
-
----
-
-# 📘 Switch Statement
-
-The `switch` statement is used when checking many possible values.
-
-It is cleaner than using many `else if` statements.
-
----
-
-## 💻 Syntax
-
-```javascript
-switch (value) {
-  case option1:
-    // code
-    break;
-
-  case option2:
-    // code
-    break;
-
-  default:
-  // code
-}
-```
-
----
-
-## 💻 Example
-
-```javascript
-let day = 3;
-
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-
-  case 2:
-    console.log("Tuesday");
-    break;
-
-  case 3:
-    console.log("Wednesday");
-    break;
-
-  default:
-    console.log("Invalid Day");
-}
-```
-
-### 📝 Output
-
-```javascript
-Wednesday;
-```
-
----
-
-# 💻 Full Practice Code
-
-```javascript
-let age = 18;
-
-if (age >= 18) {
-  console.log("You are eligible");
-} else {
-  console.log("You are not eligible");
-}
-
-let marks = 85;
-
-if (marks >= 80) {
-  console.log("Excellent");
-} else if (marks >= 50) {
-  console.log("Pass");
-} else {
-  console.log("Fail");
-}
-```
-
----
-
-# 📝 Tasks
-
-1. Create age checker.
-2. Create grading system.
-3. Check even and odd numbers.
-4. Create login condition.
-5. Practice switch statement.
-
----
-
-# 🎯 Homework
-
-Create a login condition program.
-
-## 💻 Example
-
-```javascript
-let username = "admin";
-let password = 1234;
-
-if (username === "admin" && password === 1234) {
-  console.log("Login Successful");
-} else {
-  console.log("Invalid Username or Password");
-}
+Mera naam Ali hai, umar 17 saal
+Mera naam Ali hai, umar 17 saal, Skardu se hoon
+Aglay saal 18 saal ka hounga
 ```
 
 ---
@@ -283,10 +282,9 @@ if (username === "admin" && password === 1234) {
 
 After completing this lesson, students will understand:
 
-✅ `if` statement  
-✅ `else` statement  
-✅ `else if` statement  
-✅ Nested conditions  
-✅ Switch statement  
-✅ Decision making in JavaScript  
-✅ Multiple condition checking
+✅ What Template Literals are  
+✅ Difference between concatenation and Template Literals  
+✅ How to use backticks `` ` ``
+✅ How `${}` works  
+✅ How to insert variables into strings  
+✅ How to perform calculations inside strings
