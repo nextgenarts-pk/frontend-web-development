@@ -1,4 +1,4 @@
-# 📅 Day 3 — Wednesday Operators:
+## Day 3 — Wednesday: Operators ⭐ Key Concept
 
 ## 🧠 Topics Covered
 
