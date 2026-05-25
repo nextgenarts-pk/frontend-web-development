@@ -1,5 +1,7 @@
-# 📅 Day 4 — Thrusday: Template Literals in JavaScript
+## 📅 Day 4 — Thursday: Strings & Template Literals
 
+ # Template Literals in JavaScript
+ 
 ## 🧠 What are Template Literals?
 
 Template Literals are a modern way to create strings in JavaScript.
