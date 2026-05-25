@@ -1,267 +1,159 @@
-# Week 7 — JavaScript Fundamentals
+# Week 7 — Conditions & Loops
 
-## 🎯 Week Goal
+## 📖 Overview
 
-By the end of this week, students will understand the core fundamentals of JavaScript including
-functions, arrays, and basic DOM interaction.
+Welcome to **Week 7 of JavaScript**!
 
-# 📅 Day 1 — Functions in JavaScript
+This week, you will learn how to make your programs **think and repeat tasks automatically**. Until now, your code has been running line by line from top to bottom. In this week, you'll learn how to control the flow of your program using **conditions** and **loops**.
 
-## 🧠 Topics Covered
+Conditions help programs make decisions, while loops allow code to run multiple times without repeating the same statements manually.
 
-## 📘 Explanation
-
-Functions help organize reusable code.
-
-## 💻 Practice Code
-
-```javascript
-function greet(name) {
-  return "Hello " + name;
-}
-
-console.log(greet("Sameer"));
-```
-
-## 📝 Tasks
-
-1. Create addition function.
-2. Create greeting function.
-3. Create multiplication function.
-
-## 🎯 Homework
-
-Build a calculator using functions.
+These concepts are fundamental in every programming language and are used in real-world applications such as login systems, games, calculators, forms, and much more.
 
 ---
 
-# 📅 Day 7 — Arrays and Basic DOM
+# Day 1 — Monday
 
-## 🧠 Topics Covered
+# 🔀 if / else — Making Decisions in JavaScript
 
-- Arrays
-- Array methods
-- Accessing array items
-- Introduction to DOM
-- Selecting HTML elements
-- Changing text with JavaScript
+## 📖 Introduction
 
-## 📘 Explanation
+Until now, your JavaScript code has been running from top to bottom in the same order every time. However, real-world programs need to make decisions based on different situations.
 
-Arrays store multiple values in one variable. DOM allows JavaScript to interact with webpage elements.
-
-## 💻 DOM Example
-
-```html
-<h1 id="title">Hello</h1>
-
-<script>
-  document.getElementById("title").innerText = "Welcome Sameer";
-</script>
-```
-
-## 💻 Array Example
-
-```javascript
-let fruits = ["Apple", "Banana", "Mango"];
-
-console.log(fruits[0]);
-console.log(fruits.length);
-```
-
-## 📝 Tasks
-
-1. Create an array of names.
-2. Print all array values.
-3. Change webpage text using JavaScript.
-
-## 🎯 Homework
-
-Create a simple webpage with button and text.
+The `if`, `else if`, and `else` statements allow your program to execute different code depending on whether a condition is true or false.
 
 ---
 
-# 🧪 Weekly Mini Project
+# 🎯 Learning Objectives
 
-## Project: Simple Student Information App
-
-### Features
-
-- Store student name
-- Store age
-- Use functions
-- Use conditions
-- Print results in webpage
-
-## Example Idea
-
-```javascript
-let student = "Sameer";
-let marks = 85;
-
-if (marks >= 50) {
-  console.log(student + " Passed");
-} else {
-  console.log(student + " Failed");
-}
-```
-
----
-
-# 📚 Week 9 Learning Outcomes
-
-After completing this week, students will be able to:
-
-✅ Understand JavaScript basics  
-✅ Use variables and data types  
-✅ Apply operators and conditions  
-✅ Create loops and functions  
-✅ Work with arrays  
-✅ Manipulate webpage content using DOM  
-✅ Build beginner JavaScript projects
-
----
-
-# 🚀 Extra Practice Challenges
-
-1. Create a number guessing game.
-2. Build a simple calculator.
-3. Create a temperature converter.
-4. Build a student grading system.
-5. Make a random quote generator.
-
----
-
-# 📖 Recommended Resources
-
-- JavaScript MDN Documentation
-- W3Schools JavaScript Tutorial
-- freeCodeCamp JavaScript Course
-- YouTube JavaScript Beginner Tutorials
-
----
-
-# 🏁 Final Revision Topics
-
-Before moving to next week, revise:
-
-- Variables
-- Data Types
-- Operators
-- Conditions
-- Loops
-- Functions
-- Arrays
-- DOM Basics
-
-Practice every topic with small projects for stronger understanding.
-
-# 📅 Day 3 — Operators in JavaScript
-
-# 📅 Day 4 — Conditional Statements
-
-## 🧠 Topics Covered
+By the end of this lesson, you will understand:
 
 - `if` statement
 - `else` statement
 - `else if`
-- Nested conditions
-- Switch statement
+- Conditions
+- Boolean values (`true` / `false`)
+- Code blocks `{ }`
 
 ---
 
-# 📘 Explanation
+# 🧠 What is a Condition?
 
-Conditional statements allow programs to make decisions.
+A condition is an expression that evaluates to either:
 
-They check conditions and run different code based on whether the condition is:
+```javascript
+true;
+```
 
-- `true`
-- `false`
+or
 
-Conditional statements are very important in programming because they make programs smart and interactive.
+```javascript
+false;
+```
+
+Example:
+
+```javascript
+10 > 5;
+```
+
+Output:
+
+```javascript
+true;
+```
+
+Example:
+
+```javascript
+5 > 10;
+```
+
+Output:
+
+```javascript
+false;
+```
 
 ---
 
-# 📘 `if` Statement
+# 1️⃣ The if Statement
 
-The `if` statement runs code only if the condition is true.
+The `if` statement runs a block of code only when a condition is true.
 
----
-
-## 💻 Syntax
+### Syntax
 
 ```javascript
 if (condition) {
-  // code
+  // code to run
 }
 ```
 
----
-
-## 💻 Example
+### Example
 
 ```javascript
-let age = 18;
+const age = 20;
 
 if (age >= 18) {
-  console.log("You are eligible");
+  console.log("You are an adult.");
 }
 ```
 
-### 📝 Output
+### Output
 
 ```javascript
-You are eligible
+You are an adult.
 ```
 
----
+### Explanation
 
-# 📘 `else` Statement
-
-The `else` statement runs when the condition is false.
+Since `20 >= 18` is true, the code inside the braces `{}` runs.
 
 ---
 
-## 💻 Syntax
+# 2️⃣ The else Statement
+
+The `else` block runs when the `if` condition is false.
+
+### Syntax
 
 ```javascript
 if (condition) {
-  // true code
+  // runs if true
 } else {
-  // false code
+  // runs if false
 }
 ```
 
----
-
-## 💻 Example
+### Example
 
 ```javascript
-let age = 16;
+const age = 15;
 
 if (age >= 18) {
-  console.log("You are eligible");
+  console.log("You are an adult.");
 } else {
-  console.log("You are not eligible");
+  console.log("You are a minor.");
 }
 ```
 
-### 📝 Output
+### Output
 
 ```javascript
-You are not eligible
+You are a minor.
 ```
 
----
+### Explanation
 
-# 📘 `else if` Statement
-
-`else if` is used to check multiple conditions.
+Since `15 >= 18` is false, JavaScript skips the `if` block and executes the `else` block.
 
 ---
 
-## 💻 Syntax
+# 3️⃣ The else if Statement
+
+Use `else if` when you need to check multiple conditions.
+
+### Syntax
 
 ```javascript
 if (condition1) {
@@ -275,178 +167,190 @@ if (condition1) {
 
 ---
 
-## 💻 Example
+# Example: Student Grade System
 
 ```javascript
-let marks = 75;
+const marks = 75;
 
 if (marks >= 90) {
-  console.log("Grade A");
+  console.log("Grade: A+");
+} else if (marks >= 80) {
+  console.log("Grade: A");
 } else if (marks >= 70) {
-  console.log("Grade B");
-} else {
-  console.log("Grade C");
-}
-```
-
-### 📝 Output
-
-```javascript
-Grade B
-```
-
----
-
-# 📘 Nested Conditions
-
-Nested conditions mean using one condition inside another condition.
-
----
-
-## 💻 Example
-
-```javascript
-let age = 20;
-let hasID = true;
-
-if (age >= 18) {
-  if (hasID) {
-    console.log("Entry Allowed");
-  } else {
-    console.log("ID Required");
-  }
-} else {
-  console.log("Under Age");
-}
-```
-
-### 📝 Output
-
-```javascript
-Entry Allowed
-```
-
----
-
-# 📘 Switch Statement
-
-The `switch` statement is used when checking many possible values.
-
-It is cleaner than using many `else if` statements.
-
----
-
-## 💻 Syntax
-
-```javascript
-switch (value) {
-  case option1:
-    // code
-    break;
-
-  case option2:
-    // code
-    break;
-
-  default:
-  // code
-}
-```
-
----
-
-## 💻 Example
-
-```javascript
-let day = 3;
-
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-
-  case 2:
-    console.log("Tuesday");
-    break;
-
-  case 3:
-    console.log("Wednesday");
-    break;
-
-  default:
-    console.log("Invalid Day");
-}
-```
-
-### 📝 Output
-
-```javascript
-Wednesday;
-```
-
----
-
-# 💻 Full Practice Code
-
-```javascript
-let age = 18;
-
-if (age >= 18) {
-  console.log("You are eligible");
-} else {
-  console.log("You are not eligible");
-}
-
-let marks = 85;
-
-if (marks >= 80) {
-  console.log("Excellent");
+  console.log("Grade: B");
 } else if (marks >= 50) {
-  console.log("Pass");
+  console.log("Grade: C");
+} else {
+  console.log("Grade: Fail");
+}
+```
+
+### Output
+
+```javascript
+Grade: B;
+```
+
+### Explanation
+
+- Is 75 greater than or equal to 90? ❌ No
+- Is 75 greater than or equal to 80? ❌ No
+- Is 75 greater than or equal to 70? ✅ Yes
+
+Therefore JavaScript prints:
+
+```javascript
+Grade: B;
+```
+
+Once a condition becomes true, the remaining conditions are skipped.
+
+---
+
+# 🧩 Boolean Values
+
+A Boolean value can only be:
+
+```javascript
+true;
+```
+
+or
+
+```javascript
+false;
+```
+
+Example:
+
+```javascript
+console.log(10 > 5);
+console.log(10 < 5);
+```
+
+### Output
+
+```javascript
+true;
+false;
+```
+
+These Boolean values are often used inside `if` conditions.
+
+---
+
+# 📦 Code Blocks
+
+Code blocks are written inside curly braces `{}`.
+
+Example:
+
+```javascript
+if (true) {
+  console.log("Line 1");
+  console.log("Line 2");
+  console.log("Line 3");
+}
+```
+
+Everything inside the braces belongs to that condition.
+
+---
+
+# 🎯 Practice Exercise
+
+Create a variable called `score` and write a grading system.
+
+### Requirements
+
+| Score    | Grade |
+| -------- | ----- |
+| 90+      | A+    |
+| 80+      | A     |
+| 70+      | B     |
+| 50+      | C     |
+| Below 50 | Fail  |
+
+### Solution
+
+```javascript
+const score = 85;
+
+if (score >= 90) {
+  console.log("A+");
+} else if (score >= 80) {
+  console.log("A");
+} else if (score >= 70) {
+  console.log("B");
+} else if (score >= 50) {
+  console.log("C");
 } else {
   console.log("Fail");
 }
 ```
 
----
-
-# 📝 Tasks
-
-1. Create age checker.
-2. Create grading system.
-3. Check even and odd numbers.
-4. Create login condition.
-5. Practice switch statement.
-
----
-
-# 🎯 Homework
-
-Create a login condition program.
-
-## 💻 Example
+### Output
 
 ```javascript
-let username = "admin";
-let password = 1234;
+A;
+```
 
-if (username === "admin" && password === 1234) {
-  console.log("Login Successful");
+---
+
+# 🧪 Try Different Values
+
+Change the score and observe the output.
+
+```javascript
+const score = 95; // A+
+const score = 82; // A
+const score = 74; // B
+const score = 55; // C
+const score = 30; // Fail
+```
+
+---
+
+# 🎯 Complete Practice Code
+
+```javascript
+const age = 20;
+
+if (age >= 18) {
+  console.log("You are an adult.");
 } else {
-  console.log("Invalid Username or Password");
+  console.log("You are a minor.");
+}
+
+const marks = 75;
+
+if (marks >= 90) {
+  console.log("Grade: A+");
+} else if (marks >= 80) {
+  console.log("Grade: A");
+} else if (marks >= 70) {
+  console.log("Grade: B");
+} else if (marks >= 50) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: Fail");
 }
 ```
 
 ---
 
-# 📚 Summary
+# ✅ What You Learned Today
 
-After completing this lesson, students will understand:
+- What conditions are
+- Boolean values (`true` and `false`)
+- `if` statements
+- `else` statements
+- `else if` statements
+- Code blocks `{ }`
+- Building a grading system using conditions
 
-✅ `if` statement  
-✅ `else` statement  
-✅ `else if` statement  
-✅ Nested conditions  
-✅ Switch statement  
-✅ Decision making in JavaScript  
-✅ Multiple condition checking
+---
+
+# 🚀 Next Step
+
+In the next lesson, you will learn how to use logical operators (`&&`, `||`, `!`) to create more powerful conditions and decision-making systems.
