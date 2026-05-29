@@ -29,7 +29,7 @@ Day	Topic	Duration
 
 ## 📝 Weekly Assignment
 
-👉 [View Weekly Assignment](Assignment/README.md)
+👉 [View Weekly Assignment](Assigment/README.md)
 
 **Project:** Build a **portfolio Website** using only HTML5 — includes your name, photo, bio, skills list, education table, From and social links.
 
