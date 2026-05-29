@@ -43,11 +43,6 @@ Bagh, Azad Kashmir
 
 <span>Inline Text</span>
 
-<div>Block Section</div>
-<header>Block element</header>
-<nav>Navigation</nav>
-<section>Block element </section>
-<footer>Block element </Footer>
 ```
 
 ---
@@ -79,7 +74,7 @@ x<sup>2</sup>
 
 ---
 
-## ✍️ Daily Task
+## ✍️ Hands-On Exercise
 
 Create:
 

@@ -1,11 +1,13 @@
 # 📅 Day 3 — What is CSS and what are its types? , CSS properties
 
-# 🎯 Today's Goals
+## 🎯 Today's Goals
 
-* Learn what CSS is
-* Learn types of CSS
+* Learn what CSS and its types.
+* Learn what Class and ID are in HTML & CSS
+* Understand the difference between Class and ID
 * Learn CSS properties
-* Apply styles to HTML elements
+* Learn how to use Class and ID in styling
+* Apply Class and ID in a simple example
 
 ---
 
@@ -51,15 +53,6 @@ h1{
 ```html id="n5q2w4"
 <link rel="stylesheet" href="style.css">
 ```
-
----
-## # 🎯 Today's Goals
-
-* Learn what Class and ID are in HTML & CSS
-* Understand the difference between Class and ID
-* Learn how to use Class and ID in styling
-* Apply Class and ID in a simple example
-
 ---
 
 ## 3. What is Class?

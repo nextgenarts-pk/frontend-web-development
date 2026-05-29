@@ -2,6 +2,7 @@
 # 📅 Day 2 — Basic Text Tags
 
 ## 🎯 Today's Goals
+
 * VS Code Introduction & Installation
 * Learn html Boilerplate
 * Learn html tags
@@ -87,19 +88,7 @@ VS Code (Visual Studio Code) is a code editor used to write HTML, CSS, and JavaS
 ```
 ---
 
-### 9. Other Text Tags
-
-```html id="1c4m6s"
-<small>Small Text</small>
-<mark>Highlighted Text</mark>
-<u>Underline Text</u>
-<q>Short Quote</q>
-<br>
-<hr>
-```
----
-
-## ✍️ Daily Task
+## ✍️ Hands-On Exercise
 
 Create a webpage using:
 
