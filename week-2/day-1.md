@@ -1,305 +1,183 @@
-# Week 2: HTML Form , CSS introduction and properties
+# Week 2: CSS Fundamentals & Styling Basics
 
 ---
 ## 📋 Prerequisites
 
-- Completed Week 1 HTML fundamentals
-- Personal bio page built in HTML
+- Completed Week 1 HTML 
+- portfolio Website built in HTML
 
 ---
 
 ## 🎯 Week 2 Goals
 
-* HTML Form tags and Input Types
-* What is GitHub and why is it used?
-* What is CSS and what are its types?
-* CSS properties
+* CSS Introduction & Selectors
+* Typography Properties
+* Colors & Backgrounds
+* Box Model
+* Display Properties
+* Positioning
 
 ---
 
-# 📅 Day 1 — HTML From Tag & Semantic and Non-Semantic Tags
+# 📅 Day 1 — CSS Introduction & Selectors
 
 ## 🎯 Today's Goals
 
-* Understand what an HTML form is
-* Use the `<form>` tag
-* Create different input fields
-* Build a simple registration form
-* Semantic and Non-Semantic Tags
+* What is CSS?
+* Inline, Internal & External CSS
+* Basic Selectors
+* Class & ID Selectors
+* What is Class & ID
+* Difference Between Class and ID
+
 ---
 
 ## 📖 Lesson Content
 
-HTML forms are used to collect user data such as:
+## 🎨 1. What is CSS?
 
-* Name
-* Email
-* Password
-* Phone Number
-
-Forms are commonly used in:
-
-* Login pages
-* Registration pages
-* Contact forms
+CSS (Cascading Style Sheets) is used to **style HTML pages**.
+It makes websites colorful, attractive, and well-designed.
 
 ---
 
-# Main Form Tag
+## 🧩 2. Types of CSS
 
-The `<form>` tag is used to create a form in HTML.
+### 🔹 Inline CSS
 
-```html
-<form>
-</form>
+```html id="o2k9aa"
+<p style="color:red;">This is red text</p>
 ```
 
----
+### 🔹 Internal CSS
 
-# Important Form Tags
-
-| Tag          | Purpose              |
-| ------------ | -------------------- |
-| `<form>`     | Creates the form     |
-| `<input>`    | Creates input fields |
-| `<label>`    | Adds labels          |
-| `<textarea>` | Multi-line text      |
-| `<button>`   | Creates buttons      |
-| `<select>`   | Dropdown menu        |
-| `<option>`   | Dropdown options     |
-
----
-
-# Input Types
-
-### Text Input
-
-```html
-<input type="text">
-```
-
-### Email Input
-
-```html
-<input type="email">
-```
-
-### Password Input
-
-```html
-<input type="password">
-```
-
-### Number Input
-
-```html
-<input type="number">
-```
-
-### Radio Button
-
-```html
-<input type="radio">
-```
-
-### Checkbox
-
-```html
-<input type="checkbox">
-```
-
-### Submit Button
-
-```html
-<input type="submit">
-```
-
----
-
-### Simple Form Example
-
-```html
-<!DOCTYPE html>
-<html>
+```html id="b1c8dd"
 <head>
-    <title>Simple Form</title>
+<style>
+p {
+  color: blue;
+}
+</style>
 </head>
-<body>
+```
 
-    <form>
-        <label>Name:</label>
-        <input type="text"><br><br>
+### 🔹 External CSS
 
-        <label>Email:</label>
-        <input type="email"><br><br>
-
-        <label>Password:</label>
-        <input type="password"><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
-
-</body>
-</html>
+```html id="x9k3lm"
+<link rel="stylesheet" href="style.css">
 ```
 
 ---
 
-## Difference Between Semantic and Non-Semantic Tags
+## 🧠 3. Basic CSS Syntax
 
-| Semantic Tags                    | Non-Semantic Tags           |
-| -------------------------------- | --------------------------- |
-| Describe meaning of content      | Do not describe content     |
-| Better for SEO                   | Mainly for styling/layout   |
-| Easy to understand               | Generic containers          |
-| Examples: `<header>`, `<footer>` | Examples: `<div>`, `<span>` |
-
-## What are Semantic and Non-Semantic Tags?
-
-### Semantic Tags
-
-Semantic tags are HTML tags that clearly describe the meaning of the content.
-
-👉 These tags tell both the browser and developer what the content represents.
-
-### Examples of Semantic Tags
-
-```html id="v1k8m3"
-<header></header>
-<nav></nav>
-<section></section>
-<article></article>
-<footer></footer>
-<main></main>
+```css id="c3d7pq"
+selector {
+    property: value;
+}
 ```
-
-### Benefits of Semantic Tags
-
-* Better website structure
-* Easy to read and understand
-* Improves SEO
-* Helps screen readers and accessibility
-
----
-
-## Non-Semantic Tags
-
-Non-semantic tags do not describe the meaning of the content.
-
-👉 They are mainly used for layout and styling.
-
-### Examples of Non-Semantic Tags
-
-```html id="n7p2x5"
-<div></div>
-<span></span>
-```
-
-### Why They Are Called Non-Semantic?
-
-Because they do not explain what content is inside them.
 
 Example:
 
-```html id="k4m9t1"
-<div>This is content</div>
-```
-
-Here, `<div>` does not tell whether it is a header, footer, or section.
-
----
-
-## Difference Between Semantic and Non-Semantic Tags
-
-| Semantic Tags                    | Non-Semantic Tags           |
-| -------------------------------- | --------------------------- |
-| Describe meaning of content      | Do not describe content     |
-| Better for SEO                   | Mainly for styling/layout   |
-| Easy to understand               | Generic containers          |
-| Examples: `<header>`, `<footer>` | Examples: `<div>`, `<span>` |
-
----
-
-## ✅ Void / Empty Tags List
-
-* `<br>` → line break
-* `<hr>` → horizontal line
-* `<img>` → image
-* `<input>` → input field
-* `<meta>` → metadata
-* `<link>` → CSS file connect
-* `<area>` → image map area
-* `<col>` → table column settings
----
-
-### Example
-
-```html id="5dfgmf"
-<p>Hello<br>World</p>
-
-<img src="image.jpg" alt="pic">
-
-<hr>
-
-<input type="text">
+```css id="t8a2ww"
+p {
+    color: green;
+}
 ```
 
 ---
 
-#  Types of Tags
+## 🏷️ 4. Selectors
 
-## 1. Container Tags
+### 🔹 Element Selector
 
-* These have both opening and closing tags.
-
-```html id="8ks6pk"
-<p>Hello</p>
-<div></div>
+```css id="e1s2aa"
+h1 {
+    color: red;
+}
 ```
-----
 
-## 2. Empty/Void Tags
+### 🔹 Class Selector
 
-* These do not have closing tags.
-
-```html id="j5h4fd"
-<br>
-<img>
-<hr>
+```css id="e2s3bb"
+.myclass {
+    color: blue;
+}
 ```
+
+### 🔹 ID Selector
+
+```css id="e3s4cc"
+#myid {
+    color: green;
+}
+```
+## 5. What is Class & ID?
+
+A **class** is an HTML attribute used to group multiple elements and apply the same styling.
+
+### Example:
+
+```html id="c1a9k3"
+<p class="text">Hello</p>
+<p class="text">World</p>
+```
+
+```css id="s7m2p8"
+.text{
+   color: blue;
+}
+```
+✔ One class can be used on multiple elements.
+---
+
+An **ID** is an HTML attribute used to uniquely identify a single element.
+
+### Example:
+
+```html id="i4x8n2"
+<h1 id="heading">Welcome</h1>
+```
+
+```css id="d9v3k1"
+#heading{
+   color: red;
+}
+```
+✔ ID should be used only once on a page.
+
+---
+
+## 6. Difference Between Class and ID
+
+| Class                      | ID                      |
+| -------------------------- | ----------------------- |
+| Used for multiple elements | Used for single element |
+| Reusable                   | Unique                  |
+| CSS selector: `.` dot      | CSS selector: `#` hash  |
+| Example: `.box`            | Example: `#box`         |
+
 ---
 
 ## ✍️ Hands-On Exercise
 
-Students will create:
+Create a simple HTML page and:
 
-* A Login Form
-* A Registration Form
-
-Using:
-
-* Text input
-* Email input
-* Password input
-* Submit button
+* Change text color using CSS
+* Use class selector
+* Use ID selector
+* Apply internal CSS
 
 ---
 
-# Homework
+## 📝 Homework
 
-Create a Student Registration Form using:
+Design a simple webpage and:
 
-* Name
-* Email
-* Phone Number
-* Gender
-* Submit Button
-
----
-
-### HTML ends here with this, And add this to the Week 1 assignment.
+✔ Change background color
+✔ Style headings
+✔ Style paragraph text
+✔ Use class and ID
 
 ---
-[← Previous Day](../week-1/day-06.md) | [Back to Week 2](README.md) | [Next Day →](day-2.md)
-
-                    
+[← Previous Day](../week-1/day-6.md) | [Back to Week 2](README.md) | [Next Day →](day-2.md)                  
