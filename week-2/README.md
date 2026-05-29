@@ -25,7 +25,7 @@
 
 ## 📝 Weekly Assignment
 
-👉 [View Weekly Assignment](assignments/README.md)
+👉 [View Weekly Assignment](Assigment/README.md)
 
 **Project:** Style your **Personal Bio Page** from Week 1 with CSS — add colors, fonts, layout, hover effects, and a polished professional look.
 
