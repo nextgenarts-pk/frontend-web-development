@@ -112,7 +112,7 @@ Typography is used to style text.
 
 ---
 
-## 7. Font Size
+## 1. Font Size
 
 ```css id="f7k3p1"
 font-size: 25px;
@@ -122,7 +122,7 @@ Changes text size.
 
 ---
 
-## 8. Font Family
+## 2. Font Family
 
 ```css id="t5x9m2"
 font-family: Arial;
@@ -132,7 +132,7 @@ Changes text style/font.
 
 ---
 
-## 9. Font Weight
+## 3. Font Weight
 
 ```css id="g1v8n4"
 font-weight: bold;
@@ -142,7 +142,7 @@ Makes text bold.
 
 ---
 
-## 10. Font Style
+## 4. Font Style
 
 ```css id="s6m2q9"
 font-style: italic;
@@ -152,7 +152,7 @@ Makes text italic.
 
 ---
 
-## 11. Text Align
+## 5. Text Align
 
 ```css id="a4p7k3"
 text-align: center;
@@ -162,7 +162,7 @@ Aligns text position.
 
 ---
 
-## 12. Text Transform
+## 6. Text Transform
 
 ```css id="u8n5x1"
 text-transform: uppercase;
@@ -172,7 +172,7 @@ Changes text case.
 
 ---
 
-## 13. Letter Spacing
+## 7. Letter Spacing
 
 ```css id="l2v6m8"
 letter-spacing: 3px;
@@ -182,7 +182,7 @@ Adds space between letters.
 
 ---
 
-## 14. Line Height
+## 8. Line Height
 
 ```css id="h9k4p2"
 line-height: 30px;
@@ -192,7 +192,7 @@ Controls spacing between lines.
 
 ---
 
-## 15. Text Decoration
+## 9. Text Decoration
 
 ```css id="e5x7n1"
 text-decoration: underline;

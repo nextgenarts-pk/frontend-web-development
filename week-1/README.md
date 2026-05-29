@@ -11,7 +11,7 @@ By the end of this week, students will be able to:
 * 📝 Write basic HTML5 documents
 * 🎨 Understand the role of HTML, CSS, and JavaScript
 * 💻 Set up and use VS Code
-* 🔗 Create links, images, lists, and tables in HTML
+* 🔗 Create links, images, lists, tables and Form in HTML
 * 🚀 Build a complete Personal Bio webpage project
 ---
 
@@ -20,18 +20,18 @@ Day	Topic	Duration
 
 * Day 1	Introduction to Web Development & Internet Basics	|2 Hours|
 * Day 2	VS Code, HTML Boilerplate & Basic Text Tags	|2 Hours|
-* Day 3	Lists, Special Tags & Structure Tags	|2 Hours|
-* Day 4	Links, Images & Tables	|2 Hours|
-* Day 5	HTML Revision & Practice	|2 Hours|
-* Day 6	Mini HTML Project & Quiz	|2 Hours|
+* Day 3	Advanced Text & List Tags	|2 Hours|
+* Day 4	Text Tag , favicon, Links &  Images |2 Hours|
+* Day 5	Table tags & HTML Layout / Structure Tags	|2 Hours|
+* Day 6	HTML From Tag & Semantic and Non-Semantic Tags	|2 Hours|
 
 ---
 
 ## 📝 Weekly Assignment
 
-👉 [View Weekly Assignment](assignments/README.md)
+👉 [View Weekly Assignment](Assignment/README.md)
 
-**Project:** Build a **Personal Bio Page** using only HTML5 — includes your name, photo, bio, skills list, education table, and social links.
+**Project:** Build a **portfolio Website** using only HTML5 — includes your name, photo, bio, skills list, education table, From and social links.
 
 ---
 

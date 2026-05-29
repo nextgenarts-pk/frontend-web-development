@@ -20,7 +20,7 @@
 ## 🎯 Today's Goals
 
 *  What is Media Queries?  
-* Mobile-First Design
+*  Mobile-First Design
 ---
 
 

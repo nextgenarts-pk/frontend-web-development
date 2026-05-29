@@ -1,86 +1,61 @@
 
-# 📅 Day 4 — Links, Images & Tables
+# 📅 Day 4 — Text Tag , favicon, Links &  Images
 
 ## 🎯 Today's Goals
 
-* Learn links
-* Learn images
-* Learn HTML tables
-
+* learn more text tags
+* Learn links tag 
+* Learn images tag
 ---
 
 ## 📖 Lesson Content
 
-### 1. Anchor Tag
+### 1. Text Tags
+
+```html id="1c4m6s"
+<small>Small Text</small>
+<mark>Highlighted Text</mark>
+<u>Underline Text</u>
+<q>Short Quote</q>
+<br>
+<hr>
+```
+---
+
+### 2. Anchor Tag
 
 ```html id="o6k3r9"
 <a href="https://google.com">Open Google</a>
 ```
-
 ---
 
-### 2. Image Tag
+### 3. Image Tag
 
 ```html id="y7d1m8"
 <img src="image.jpg" alt="Image">
 ```
+### 4. favicon
+<head>
+    <title>My Website</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
 
 ---
-
-### 3. Table Tags
-
-```html id="p1t4e6"
-<table bord="1">
-
-<caption>Student Data</caption>
-
-<thead>
-<tr>
-<th>Name</th>
-<th>Class</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Ali</td>
-<td>8</td>
-</tr>
-</tbody>
-
-<tfoot>
-<tr>
-<td colspan="2">End</td>
-</tr>
-</tfoot>
-
-</table>
-```
-
----
-
-### 4. Colgroup Tag
-
-```html id="g5u7r2"
-<colgroup>
-   <col span="1">
-</colgroup>
-```
-
----
-
-## ✍️ Daily Task
+## ✍️ Hands-On Exercise
 
 Create:
 
-* One link
-* One image
-* One student table
-
+" My Name
+ About Me
+ Hello! My name is Ali.
+ I love Web Development.
+ Visit Google
+ Visit YouTube
+ [Image Here] "
 ---
 
 ## 📝 Homework
 
-Create a school timetable using HTML table.
+Create a Simple Personal Web Page
 ---
 [← Previous Day](day-3.md) | [Back to Week 1](README.md) | [Next Day →](day-5.md)

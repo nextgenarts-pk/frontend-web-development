@@ -1,26 +1,60 @@
-# 📅 Day 5 — Revision & Mini Practice
+# 📅 Day 5 — Table tags & HTML Layout / Structure Tags
 
 ## 🎯 Today's Goals
 
-* Revise all HTML tags
-* Practice webpage structure
-* Combine everything together
+* Learn table Tags
+* Learn HTML structure Tags
+
+---
+## 📖 Lesson Content
+
+### 1. Table Tags
+
+```html id="p1t4e6"
+<table bord="1">
+
+<caption>Student Data</caption>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Class</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Ali</td>
+<td>8</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="2">End</td>
+</tr>
+</tfoot>
+
+</table>
+```
+---
+### 2. HTML Structure Tags
+
+<div>Block Section</div>
+
+<header>Block element</header>
+
+<nav>Navigation</nav>
+
+<button>Read more </button>
+
+<section>Block element </section>
+
+<footer>Block element </Footer>
 
 ---
 
-## 📖 Practice Topics
-
-* Headings
-* Paragraphs
-* Lists
-* Links
-* Images
-* Tables
-* Text formatting tags
-
----
-
-## ✍️ Daily Task
+## ✍️ Hands-On Exercise
 
 Create a webpage containing:
 
@@ -35,7 +69,7 @@ Create a webpage containing:
 
 ## 📝 Homework
 
-Prepare for Sunday Mini Project.
+Create a Student Marks Table
 
 ---
 [← Previous Day](day-4.md) | [Back to Week 1](README.md) | [Next Day →](day

@@ -1,12 +1,5 @@
 # 📅 Day 2: Responsive Typography & Units 🔤
 
-## ✅ Prerequisites
-
-- Media queries and mobile-first design from Day 1
-- Basic CSS typography knowledge
-
----
-
 ## 🎯 Today's Goals
 
 - 🔤 Master responsive CSS units (`rem`, `em`, `vw`, `vh`, `%`)
@@ -23,12 +16,12 @@
 | Unit | Type | Relative To | Use Case |
 |------|------|-------------|----------|
 | `px` | Absolute | Nothing | Borders, shadows |
-| `rem` | Relative | Root font size (16px) | Font sizes, spacing |
+| `rem`| Relative | Root font size (16px) | Font sizes, spacing |
 | `em` | Relative | Parent font size | Component-level scaling |
-| `%` | Relative | Parent dimension | Widths, layouts |
-| `vw` | Relative | Viewport width | Full-width elements |
-| `vh` | Relative | Viewport height | Full-height sections |
-| `vmin` | Relative | Smaller viewport dimension | Fluid sizing |
+| `%`  | Relative | Parent dimension | Widths, layouts |
+| `vw` | Relative | Viewport width   | Full-width elements |
+| `vh` | Relative | Viewport height  | Full-height sections |
+|`vmin`| Relative | Smaller viewport dimension | Fluid sizing |
 | `ch` | Relative | Width of "0" character | Line width limits |
 
 ### `rem` vs `em`
@@ -163,16 +156,6 @@ Create a **blog article page** with:
 2. Build a **landing page** using only `rem`, `clamp()`, and `%` — no `px` for sizing
 3. Add dark mode support using `prefers-color-scheme`
 4. Test your fluid typography from 320px to 1920px — ensure readability at all sizes
-
----
-
-## 💡 Pro Tips
-
-> 🔠 **clamp() is magic**: `font-size: clamp(1rem, 2.5vw, 2rem)` handles responsive text with zero media queries.
-
-> 📏 **65ch rule**: For body text, `max-width: 65ch` ensures optimal readability regardless of screen size.
-
-> 🎨 **CSS Variables:** Define all your colors, spacing, and font sizes as custom properties at the `:root` level. It makes theming and consistency effortless.
 
 ---
 

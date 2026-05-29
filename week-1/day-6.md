@@ -1,39 +1,208 @@
-# 📅 Day 6 — Mini HTML Project
+# 📅 Day 6 — HTML From Tag & Semantic and Non-Semantic Tags
 
-# 🎯 Today's Goals
+## 🎯 Today's Goals
 
-* A short quiz will also be held.
-* Combine all HTML concepts
+* Understand what an HTML form is
+* Use the `<form>` tag
+* Create different input fields
+* Build a simple registration form
+* Semantic and Non-Semantic Tags
+
 ---
 
 ## 📖 Lesson Content
 
-* short quiz
-* Project Structure
-
-### Create:
-
-* "About Me" Webpage
----
-
-### Include:
+HTML forms are used to collect user data such as:
 
 * Name
-* Introduction
-* Image
-* Hobbies
-* Favorite websites
+* Email
+* Password
+* Phone Number
 
+Forms are commonly used in:
+
+* Login pages
+* Registration pages
+* Contact forms
+
+---
+
+## 1. Main Form Tag
+
+The `<form>` tag is used to create a form in HTML.
+
+```html
+<form>
+</form>
+```
+
+---
+
+## 2. Important Form Tags
+
+| Tag          | Purpose              |
+| ------------ | -------------------- |
+| `<form>`     | Creates the form     |
+| `<input>`    | Creates input fields |
+| `<label>`    | Adds labels          |
+| `<textarea>` | Multi-line text      |
+| `<button>`   | Creates buttons      |
+| `<select>`   | Dropdown menu        |
+| `<option>`   | Dropdown options     |
+
+---
+
+## 3. Input Types
+
+### Text Input
+
+```html
+<input type="text">
+```
+
+### Email Input
+
+```html
+<input type="email">
+```
+
+### Password Input
+
+```html
+<input type="password">
+```
+
+### Number Input
+
+```html
+<input type="number">
+```
+
+### Radio Button
+
+```html
+<input type="radio">
+```
+
+### Checkbox
+
+```html
+<input type="checkbox">
+```
+
+### Submit Button
+
+```html
+<input type="submit">
+```
+---
+
+## 4. What are Semantic and Non-Semantic Tags?
+
+### Semantic Tags
+
+Semantic tags are HTML tags that clearly describe the meaning of the content.
+
+👉 These tags tell both the browser and developer what the content represents.
+
+### Examples of Semantic Tags
+
+```html id="v1k8m3"
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<footer></footer>
+<main></main>
+```
+---
+
+## Non-Semantic Tags
+
+Non-semantic tags do not describe the meaning of the content.
+
+👉 They are mainly used for layout and styling.
+
+### Examples of Non-Semantic Tags
+
+```html id="n7p2x5"
+<div></div>
+<span></span>
+```
+---
+
+## 5. Difference Between Semantic and Non-Semantic Tags
+
+| Semantic Tags                    | Non-Semantic Tags           |
+| -------------------------------- | --------------------------- |
+| Describe meaning of content      | Do not describe content     |
+| Better for SEO                   | Mainly for styling/layout   |
+| Easy to understand               | Generic containers          |
+| Examples: `<header>`, `<footer>` | Examples: `<div>`, `<span>` |
+
+---
+
+## 7. Void / Empty Tags List
+
+* `<br>` → line break
+* `<hr>` → horizontal line
+* `<img>` → image
+* `<input>` → input field
+* `<meta>` → metadata
+* `<link>` → CSS file connect
+* `<area>` → image map area
+* `<col>` → table column settings
+---
+
+## 8.  Types of Tags
+
+### 1. Container Tags
+
+* These have both opening and closing tags.
+
+```html id="8ks6pk"
+<p>Hello</p>
+<div></div>
+```
+----
+
+### 2. Empty/Void Tags
+
+* These do not have closing tags.
+
+```html id="j5h4fd"
+<br>
+<img>
+<hr>
+```
 ---
 
 ## ✍️ Hands-On Exercise
 
-* Students create complete webpage independently.
+Students will create:
+
+* A Login Form
+* A Registration Form
+
+Using:
+
+* Text input
+* Email input
+* Password input
+* Submit button
+
 ---
 
-### 📝 Homework
+# Homework
 
-* Improve webpage design and content.
+Create a Student Registration Form using:
+
+* Name
+* Email
+* Phone Number
+* Gender
+* Submit Button
+
 ---
 
 [← Previous Day](day-5.md) | [Back to Week 1](README.md) | [Next Week →](../week-2/README.md)
