@@ -35,24 +35,16 @@
 
 ## 📖 Course Description
 
-Welcome to the **Full Stack Web Development Course — Integrated with AI** by **NextGen Arts**! This comprehensive **24-week (6-month)** program takes you from absolute beginner to a **job-ready full stack web developer** equipped with modern AI-powered development skills.
+Welcome to the **Frontend Web Development Course — Integrated with AI** by **NextGen Arts**! This comprehensive **12-week (3-month)** program takes you from absolute beginner to a **job-ready Frontend web developer** equipped with modern AI-powered development skills.
 
-You'll master **HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, TypeScript, Next.js**  and learn to build **AI-integrated web applications** using OpenAI APIs, AI chatbots, and intelligent features. Build **real-world projects every week** and graduate with a professional portfolio.
+You'll master **HTML, CSS and  JavaScript**  and learn to build **real-world projects every week** and graduate with a professional portfolio.
 
 ### 🎯 What You'll Learn
 
-- ✅ Build responsive, modern websites with **HTML5, CSS3, and Tailwind CSS**
+- ✅ Build responsive, modern websites with **HTML5 and CSS**
 - ✅ Master **JavaScript** from fundamentals to advanced ES6+ concepts
-- ✅ Create dynamic single-page applications with **React.js**
-- ✅ Build server-side applications and REST APIs with **Node.js & Express.js**
-- ✅ Work with **MongoDB** databases and Mongoose ODM
-- ✅ Learn **TypeScript** for type-safe development
-- ✅ Build production apps with **Next.js** (SSR, SSG, API routes)
-- ✅ Integrate **AI features** into web apps (OpenAI, chatbots, smart search)
-- ✅ Deploy full stack applications to the **cloud**
 - ✅ Use **Git & GitHub** for version control and collaboration
-- ✅ Write **tests** and set up **CI/CD pipelines**
-- ✅ Build a professional **developer portfolio** with 10+ projects
+- ✅ Build a professional **developer portfolio** with 5 + projects
 
 ---
 
@@ -69,16 +61,16 @@ You'll master **HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, T
 
 | Detail | Info |
 |--------|------|
-| **Duration** | 6 Months (24 Weeks) |
+| **Duration** | 3 Months (12 Weeks) |
 | **Days** | Monday to Saturday (6 days/week) |
 | **Day Off** | Sunday |
 | **Class Time** | 2 hours per day |
-| **Total Hours** | 288 hours |
+| **Total Hours** | 144 hours |
 | **Mode** | Online + In-Person (Gilgit Baltistan, Pakistan) |
 
 ---
 
-## 📚 24-Week Curriculum Overview
+## 📚 12-Week Curriculum Overview
 
 ### 🟢 Phase 1: Web Foundations (Weeks 1–4)
 
