@@ -1,220 +1,186 @@
-# 📅 Day 2: Flexbox Practice — Navbars & Card Layouts 🧭
+# 📅 Day 2 — Advanced Flexbox
 
 ## 🎯 Today's Goals
 
-- 🧭 Build a responsive navigation bar with Flexbox
-- 🃏 Create reusable card components
-- 📱 Make card grids that wrap responsively
-- 🎨 Build pricing table layouts
+* Learn Advanced Flexbox Properties
+* Understand `flex-wrap`
+* Learn `flex-grow`, `flex-shrink`, `flex-basis`
+* Use `align-self`
+* Build responsive layouts with Flexbox
 
 ---
 
-## 📘 Lesson Content
+## 📖 Lesson Content
 
-### Responsive Navbar with Flexbox
+## 🚀 1. What is Advanced Flexbox?
 
-```css
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #2c3e50;
-  color: white;
-}
+Advanced Flexbox gives **more control over layout behavior**.
 
-.navbar__logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+You can:
 
-.navbar__links {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
+* Wrap items to next line
+* Control item size
+* Grow or shrink elements
+* Align single items separately
 
-.navbar__links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-}
+---
 
-.navbar__links a:hover {
-  color: #3498db;
-}
+## 📦 2. Flex Wrap
 
-.navbar__actions {
-  display: flex;
-  gap: 0.75rem;
+By default, flex items stay on one line.
+
+Use `flex-wrap` to move items to a new line.
+
+```css id="af1"
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 ```
 
-```html
-<nav class="navbar">
-  <div class="navbar__logo">NextGen Arts</div>
-  <ul class="navbar__links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Courses</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-  <div class="navbar__actions">
-    <button class="btn btn--outline">Login</button>
-    <button class="btn btn--primary">Sign Up</button>
-  </div>
-</nav>
-```
+### Common Values:
 
-### Reusable Card Component
+* `nowrap` (default)
+* `wrap`
+* `wrap-reverse`
 
-```css
-.card {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
+👉 Useful for responsive design
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
+---
 
-.card__image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+## 📏 3. Flex Grow
 
-.card__body {
-  padding: 1.5rem;
-  flex: 1; /* Takes remaining space */
-  display: flex;
-  flex-direction: column;
-}
+Controls how much an item can **grow**.
 
-.card__title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.card__text {
-  color: #666;
-  flex: 1; /* Pushes footer down */
-}
-
-.card__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+```css id="af2"
+.box {
+    flex-grow: 1;
 }
 ```
 
-### Card Grid Layout
+Example:
 
-```css
-.card-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
+```css id="af3"
+.box1 {
+    flex-grow: 1;
 }
 
-.card-grid .card {
-  flex: 1 1 300px;  /* Grow, shrink, min-width 300px */
-  max-width: 400px;
+.box2 {
+    flex-grow: 2;
 }
 ```
 
-### Pricing Table with Flexbox
+👉 Box2 takes more space
 
-```css
-.pricing {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 3rem;
-  flex-wrap: wrap;
+---
+
+## 📉 4. Flex Shrink
+
+Controls how much an item can **shrink**.
+
+```css id="af4"
+.box {
+    flex-shrink: 1;
 }
+```
 
-.pricing__plan {
-  flex: 1 1 280px;
-  max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border: 2px solid #e0e0e0;
-  border-radius: 16px;
-  padding: 2rem;
-}
+Disable shrinking:
 
-.pricing__plan--featured {
-  border-color: #3498db;
-  transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(52, 152, 219, 0.2);
-}
-
-.pricing__features {
-  flex: 1;
-  list-style: none;
-  padding: 0;
-}
-
-.pricing__features li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #f0f0f0;
+```css id="af5"
+.box {
+    flex-shrink: 0;
 }
 ```
 
 ---
 
-## 🛠️ Hands-On Exercise
+## 📐 5. Flex Basis
 
-Build a complete **Course Cards Page** with:
+Sets the **starting size** of flex items.
 
-1. A navbar with logo, links, and action buttons
-2. A hero section with centered text
-3. A card grid showing 6 course cards
-4. Each card has: image, title, description, price, and "Enroll" button
-
-```html
-<section class="courses">
-  <h2 class="section-title">Our Courses</h2>
-  <div class="card-grid">
-    <article class="card">
-      <img src="https://picsum.photos/400/200?random=1" alt="Course" class="card__image">
-      <div class="card__body">
-        <h3 class="card__title">Web Development</h3>
-        <p class="card__text">Learn HTML, CSS, and JavaScript from scratch.</p>
-        <div class="card__footer">
-          <span class="card__price">$99</span>
-          <button class="btn btn--primary">Enroll</button>
-        </div>
-      </div>
-    </article>
-    <!-- Repeat for more cards -->
-  </div>
-</section>
+```css id="af6"
+.box {
+    flex-basis: 200px;
+}
 ```
+
+👉 Works like width for flex items
+
+---
+
+## 🎯 6. Align Self
+
+Align one specific item differently.
+
+```css id="af7"
+.box {
+    align-self: center;
+}
+```
+
+### Common Values:
+
+* `flex-start`
+* `center`
+* `flex-end`
+* `stretch`
+
+---
+
+## 🔥 7. Shorthand Flex Property
+
+You can combine multiple properties:
+
+```css id="af8"
+.box {
+    flex: 1 1 200px;
+}
+```
+
+Meaning:
+
+* `1` → flex-grow
+* `1` → flex-shrink
+* `200px` → flex-basis
+
+---
+
+## 🧠 Easy Understanding Table
+
+| Property    | Purpose                 |
+| ----------- | ----------------------- |
+| flex-wrap   | Move items to next line |
+| flex-grow   | Grow item size          |
+| flex-shrink | Shrink item size        |
+| flex-basis  | Starting size           |
+| align-self  | Align one item          |
+| flex        | Short form              |
+
+---
+
+## ✍️ Hands-On Exercise
+
+Create a webpage and:
+
+* Create a flex container
+* Add multiple boxes
+* Use `flex-wrap`
+* Apply `flex-grow` & `flex-basis`
+* Change alignment of one item using `align-self`
 
 ---
 
 ## 📝 Homework
 
-1. Build a **footer** with 4 columns using Flexbox (About, Links, Contact, Social)
-2. Create a **team members** section with circular avatar cards
-3. Add **hover effects** to all cards and buttons
-4. Make the navbar **sticky** at the top of the page
+Design a **Responsive Product Card Layout**:
+
+✔ Create 4 product cards
+✔ Use Flexbox layout
+✔ Enable `flex-wrap`
+✔ Add equal spacing
+✔ Use `flex-grow` for responsive sizing
+✔ Style one card differently using `align-self`
 
 ---
 
-[← Day 1](day-1.md) | [Back to Week 3](README.md) | [Day 3 →](day-3.md)
+[← Previous Day](day-1.md) | [Back to Week 2](README.md) | [Next Day →](day-3.md)

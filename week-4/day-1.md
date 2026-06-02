@@ -6,7 +6,7 @@
 - Flexbox & Grid layouts from Week 3
 ---
 
-## 🎯 Week 2 Goals
+## 🎯 Week 4 Goals
 
 - 📱 Understand responsive web design principles
 - 📐 Write CSS media queries
