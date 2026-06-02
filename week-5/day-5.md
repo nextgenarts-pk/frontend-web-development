@@ -34,30 +34,6 @@ Git may show:
 CONFLICT (content): Merge conflict in style.css
 ```
 
----
-
-### Resolve Conflict
-
-Open file.
-
-Example:
-
-```txt
-<<<<<<< HEAD
-background: blue;
-=======
-background: red;
->>>>>>> feature-navbar
-```
-
-Edit manually:
-
-```css
-background: blue;
-```
-
-Then:
-
 ```bash
 git add .
 git commit -m "Resolved merge conflict"
