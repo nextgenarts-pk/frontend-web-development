@@ -1,13 +1,21 @@
-# Week 5 — Only builde your profile website | [NextGen Arts](https://nextgenarts.pk)
+# Week 5 —  Git Mastery | [NextGen Arts](https://nextgenarts.pk)
 
+## ✅ Prerequisites
 
+- complete CSS properties
+- Build smooth visual animations
 
+---
 
+## 🎯 Week 5 Goals
 
+* Learn Git deeply
+* Master branching & merging
+* Understand GitHub workflow
+* Work like a real development team
+* Handle conflicts & collaboration
 
-
-
-
+---
 
 # 📅 Day 1 — CSS Overflow, Z-Index, Object-Fit & Object-Position
 
