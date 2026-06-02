@@ -90,4 +90,4 @@ Create:
 Make a webpage showing your daily routine using lists.
 
 ---
-[← Previous Day](day-2.md) | [Back to Week 1](README.md) | [Next Day →](day-04.md)
+[← Previous Day](day-2.md) | [Back to Week 01](./README.md) | [Next Day →](day-4.md)

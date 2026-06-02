@@ -72,5 +72,5 @@ Create a webpage containing:
 Create a Student Marks Table
 
 ---
-[← Previous Day](day-4.md) | [Back to Week 1](README.md) | [Next Day →](day
+[← Previous Day](day-4.md) | [Back to Week 01](./README.md) | [Next Day →](day
 -6.md)

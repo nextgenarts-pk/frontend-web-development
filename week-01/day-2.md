@@ -105,4 +105,4 @@ Create a webpage using:
 
 Create your own “About Me” webpage.
 ---
-[← Previous Day](day-1.md) | [Back to Week 1](README.md) | [Next Day →](day-03.md)
+[← Previous Day](day-1.md) | [Back to Week 1](./README.md) | [Next Day →](day-3.md)

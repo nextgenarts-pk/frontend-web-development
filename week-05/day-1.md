@@ -240,4 +240,4 @@ Design a **Modern Card Layout**:
 
 ---
 
-[← Back to Week 5](README.md) | [Day 2 →](day-2.md)
+[← Back to Week 5](./README.md) | [Day 2 →](day-2.md)

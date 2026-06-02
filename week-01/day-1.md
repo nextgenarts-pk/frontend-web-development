@@ -101,4 +101,4 @@ Website
 * Write what each website is used for
 
 ---
-[← Previous Day](../Final-Project/README.md) | [Back to Week 1](README.md) | [Next Day →](day-2.md)
+[← Previous Day](../Final-Project/README.md) | [Back to Week 01](./README.md) | [Next Day →](day-2.md)
