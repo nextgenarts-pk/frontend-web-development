@@ -1,14 +1,11 @@
-**Week 2 Assignment in the same professional style as Week 1**|[NextGen Arts](https://nextgenarts.pk)
+# 📝 Week 2 — Assignments | [NextGen Arts](https://nextgenarts.pk)
+
 ---
 
-# 📝 Week 2 — Assignments
-
-> **HTML Forms, GitHub & CSS Fundamentals + Visual Effects**
----
 
 ## 🎯 Weekly Assignment: Student Registration Web Project
 
-Build a complete **Student Registration Web Page** using HTML + CSS and upload it to GitHub. This is your second real-world frontend project!
+Build a complete **Portfolio Website** using HTML + CSS. 
 
 ---
 
@@ -17,7 +14,7 @@ Build a complete **Student Registration Web Page** using HTML + CSS and upload i
 ### Must Have (Required):
 
 * [ ] A complete HTML5 document structure
-* [ ] A **Student Registration Form** using `<form>` tag
+* [ ] A **Contact Form** using `<form>` tag
 * [ ] Input fields:
 
   * Name (text)
@@ -48,38 +45,6 @@ Build a complete **Student Registration Web Page** using HTML + CSS and upload i
 
 ---
 
-### ✨ Visual Effects (Important):
-
-* [ ] Add hover effect on button
-* [ ] Add box-shadow on form container
-* [ ] Use border-radius for rounded UI
-* [ ] Add transition effect for smooth hover
-* [ ] Optional: gradient background
-
----
-
-## 🌐 GitHub Task (Mandatory)
-
-* [ ] Create a GitHub account
-* [ ] Create a new repository
-* [ ] Upload your project files
-* [ ] Make at least 1 commit with message:
-
-  * `"Initial Registration Form Project"`
-* [ ] Push your project to GitHub
-
----
-
-## ⭐ Bonus Challenges
-
-* [ ] Add a login form page (`login.html`)
-* [ ] Add a gradient background
-* [ ] Add glassmorphism card design
-* [ ] Make responsive design (mobile friendly)
-* [ ] Add animation effect on form load
-
----
-
 ## 📤 Submission Guidelines
 
 * Create a project folder named: `student-registration-form`
@@ -89,8 +54,6 @@ Build a complete **Student Registration Web Page** using HTML + CSS and upload i
   * style.css (if external CSS used)
 * Ensure all files are properly linked
 * Test form layout in browser
-* Push project to GitHub repository
-* Share GitHub link with instructor
 
 ---
 
@@ -99,9 +62,6 @@ Build a complete **Student Registration Web Page** using HTML + CSS and upload i
 * [ ] Form is working properly
 * [ ] CSS is applied correctly
 * [ ] UI is clean and centered
-* [ ] GitHub repository is created
-* [ ] Project is uploaded successfully
-* [ ] At least one commit is visible
 
 ---
 

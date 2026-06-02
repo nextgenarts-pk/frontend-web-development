@@ -15,20 +15,20 @@
 
 | Day | Topic | Duration |
 |-----|-------|----------|
-| [Day 1](day-01.md) | Flexbox Fundamentals — Container & Items | 2 hours |
-| [Day 2](day-02.md) | Flexbox Practice — Navbars & Card Layouts | 2 hours |
-| [Day 3](day-03.md) | CSS Grid Fundamentals — Rows, Columns & Areas | 2 hours |
-| [Day 4](day-04.md) | CSS Grid Practice — Complex Page Layouts | 2 hours |
-| [Day 5](day-05.md) | Responsive Images & Media | 2 hours |
+| [Day 1](day-01.md) | CSS Flexbox Basics | 2 hours |
+| [Day 2](day-02.md) | Advanced Flexbox | 2 hours |
+| [Day 3](day-03.md) | CSS Grid Basics | 2 hours |
+| [Day 4](day-04.md) | Advanced CSS Grid | 2 hours |
+| [Day 5](day-05.md) | Responsive Design | 2 hours |
 | [Day 6](day-06.md) | Project Day — Responsive Portfolio Layout | 2 hours |
 
 ---
 
 ## 📝 Weekly Assignment
 
-👉 [View Weekly Assignment](assignments/README.md)
+👉 [View Weekly Assignment](Assigment/README.md)
 
-**Project:** Build a **Responsive Portfolio Layout** with a navigation bar (Flexbox), a project gallery grid (CSS Grid), and responsive design.
+**Project:** Build a **Complete your Portfolio Website** with a navigation bar (Flexbox), a project gallery grid (CSS Grid), and responsive design.
 
 ---
 

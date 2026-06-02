@@ -1,175 +1,162 @@
-# 📅 Day 5: Responsive Images & Media 🖼️
+# 📅 Day 5 — Responsive Design
 
 ## 🎯 Today's Goals
 
-- 🖼️ Make images responsive and performant
-- 🎬 Handle responsive video and embeds
-- 📐 Use `object-fit` and `aspect-ratio` for consistent sizing
-- 🔧 Understand `srcset` and `<picture>` for art direction
+* Understand Responsive Design
+* Learn Media Queries
+* Use Flexible Units
+* Make websites mobile-friendly
+* Build responsive layouts
 
 ---
 
-## 📘 Lesson Content
+## 📖 Lesson Content
 
-### Basic Responsive Images
+## 📱 1. What is Responsive Design?
 
-```css
-/* The foundation — every project should have this */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+**Responsive Design** means a website adjusts properly on different screen sizes.
+
+Examples:
+
+* 📱 Mobile
+* 💻 Laptop
+* 🖥️ Desktop
+* 📟 Tablet
+
+A responsive website changes layout based on screen size.
+
+---
+
+## 📏 2. Viewport Meta Tag
+
+Add viewport tag in HTML.
+
+```html id="rd1"
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+👉 Helps website fit properly on mobile devices
+
+---
+
+## 📐 3. Flexible Units
+
+Use flexible units instead of fixed values.
+
+### Percentage (%)
+
+```css id="rd2"
+.box {
+    width: 50%;
 }
 ```
 
-### `object-fit` Property
+### Viewport Width (`vw`)
 
-Controls how an image fills its container (like `background-size` for `<img>`):
-
-```css
-.thumbnail {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;    /* Fills container, crops excess */
-  /* cover | contain | fill | none | scale-down */
-  object-position: center top; /* Control crop position */
+```css id="rd3"
+h1 {
+    font-size: 5vw;
 }
 ```
 
-### `aspect-ratio` Property
+### REM Unit
 
-```css
-.card__image {
-  width: 100%;
-  aspect-ratio: 16 / 9;    /* Maintains 16:9 ratio */
-  object-fit: cover;
-}
-
-.avatar {
-  width: 80px;
-  aspect-ratio: 1 / 1;     /* Perfect square */
-  border-radius: 50%;
-  object-fit: cover;
-}
-```
-
-### `srcset` for Resolution Switching
-
-```html
-<img
-  src="photo-800.jpg"
-  srcset="
-    photo-400.jpg 400w,
-    photo-800.jpg 800w,
-    photo-1200.jpg 1200w
-  "
-  sizes="
-    (max-width: 600px) 400px,
-    (max-width: 1000px) 800px,
-    1200px
-  "
-  alt="Responsive photo"
->
-```
-
-### `<picture>` for Art Direction
-
-```html
-<picture>
-  <!-- Mobile: cropped portrait version -->
-  <source media="(max-width: 600px)" srcset="photo-mobile.jpg">
-  <!-- Tablet: medium crop -->
-  <source media="(max-width: 1024px)" srcset="photo-tablet.jpg">
-  <!-- Desktop: full landscape -->
-  <img src="photo-desktop.jpg" alt="Responsive photo">
-</picture>
-```
-
-### Responsive Video Embeds
-
-```css
-/* Responsive embedded video (YouTube, Vimeo) */
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-```
-
-```html
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/VIDEO_ID"
-          allowfullscreen
-          title="Video Title"></iframe>
-</div>
-```
-
-### Lazy Loading Images
-
-```html
-<!-- Native lazy loading — built into the browser -->
-<img src="photo.jpg" alt="Description" loading="lazy">
-
-<!-- Eager loading for above-the-fold images -->
-<img src="hero.jpg" alt="Hero image" loading="eager">
-```
-
-### Image Gallery with Grid
-
-```css
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-.gallery__item {
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.gallery__item img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-
-.gallery__item img:hover {
-  transform: scale(1.05);
+```css id="rd4"
+p {
+    font-size: 1.2rem;
 }
 ```
 
 ---
 
-## 🛠️ Hands-On Exercise
+## 🎯 4. Media Queries
 
-### Build a Responsive Image Gallery
+Media Queries apply CSS for different screen sizes.
 
-Create a photo gallery page with:
-- A hero image at the top (full width, `aspect-ratio: 21/9`)
-- A grid of photos using `auto-fit` + `minmax()`
-- All images use `object-fit: cover` and `aspect-ratio`
-- Hover zoom effect on gallery images
-- Lazy loading on all images below the fold
+```css id="rd5"
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+```
+
+👉 CSS changes when screen width becomes **768px or smaller**
+
+---
+
+## 📦 5. Responsive Flexbox Example
+
+```css id="rd6"
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+```
+
+👉 Desktop = Row
+👉 Mobile = Column
+
+---
+
+## 🧩 6. Responsive Grid Example
+
+```css id="rd7"
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+```
+
+👉 Desktop = 3 Columns
+👉 Mobile = 1 Column
+
+---
+
+## 🧠 Easy Understanding Table
+
+| Property | Purpose               |
+| -------- | --------------------- |
+| viewport | Mobile screen fitting |
+| %        | Flexible width        |
+| vw       | Viewport sizing       |
+| rem      | Responsive font size  |
+| @media   | Screen-based styling  |
+
+---
+
+## ✍️ Hands-On Exercise
+
+Create a webpage and:
+
+* Add viewport meta tag
+* Use `%` or `rem` units
+* Create a media query
+* Make layout change on mobile size
 
 ---
 
 ## 📝 Homework
 
-1. Build a **video section** with 3 responsive YouTube embeds in a grid layout
-2. Create a **team page** with circular avatars using `aspect-ratio: 1/1` and `object-fit: cover`
-3. Implement a **hero section** with full-width background image that works on all screen sizes
-4. Add `loading="lazy"` to all below-the-fold images in your gallery
+Design a **Responsive Landing Page**:
+
+✔ Add responsive typography
+✔ Use Flexbox or Grid layout
+✔ Add media queries
+✔ Make layout mobile-friendly
+✔ Test on different screen sizes
 
 ---
 

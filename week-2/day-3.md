@@ -1,260 +1,118 @@
-# 📅 Day 3 — What is CSS and what are its types? , CSS properties
+# 📅 Day 3 — Colors & Backgrounds (CSS Basics)
 
 ## 🎯 Today's Goals
 
-* Learn what CSS and its types.
-* Learn what Class and ID are in HTML & CSS
-* Understand the difference between Class and ID
-* Learn CSS properties
-* Learn how to use Class and ID in styling
-* Apply Class and ID in a simple example
+* Learn CSS Colors
+* Understand Background Properties
+* Use Color Values (HEX, RGB, Name)
+* Apply Background Color & Images
+* Improve UI Design with Colors
 
 ---
 
-# 📖 Lesson Content
+## 📖 Lesson Content
 
-## 1. What is CSS?
+## 🎨 1. What are Colors in CSS?
 
-CSS stands for **Cascading Style Sheets**.
+Colors are used to **style text, backgrounds, and elements** on a webpage.
 
-CSS is used to:
+CSS supports different color formats:
 
-* Change colors
-* Add designs
-* Style webpages
-* Make websites attractive
-
----
-
-## 2. Types of CSS
-
-### Inline CSS
-
-```html 
-<p style="color: red;">Hello World</p>
-```
+* Color Names (red, blue)
+* HEX codes (#ff0000)
+* RGB values (rgb(255, 0, 0))
 
 ---
 
-### Internal CSS
+## 🖌️ 2. Text Color
 
-```html id="g7m3p9"
-<style>
-h1{
-   color: blue;
+```css
+p {
+    color: blue;
 }
-</style>
-```
+``` 
 
 ---
+## 🧾 3. Background Color
 
-### External CSS
-
-```html id="n5q2w4"
-<link rel="stylesheet" href="style.css">
-```
----
-
-## 3. What is Class?
-
-A **class** is an HTML attribute used to group multiple elements and apply the same styling.
-
-👉 Simple meaning:
-Class is used when we want to style multiple elements in the same way.
-
-### Example:
-
-```html id="c1a9k3"
-<p class="text">Hello</p>
-<p class="text">World</p>
-```
-
-```css id="s7m2p8"
-.text{
-   color: blue;
+```css
+body {
+    background-color: lightgray;
 }
 ```
 
-✔ One class can be used on multiple elements.
+You can also use HEX:
 
----
-
-## 4. What is ID?
-
-An **ID** is an HTML attribute used to uniquely identify a single element.
-
-👉 Simple meaning:
-ID is used for only one unique element on a webpage.
-
-### Example:
-
-```html id="i4x8n2"
-<h1 id="heading">Welcome</h1>
-```
-
-```css id="d9v3k1"
-#heading{
-   color: red;
+```css
+body {
+    background-color: #f5f5f5;
 }
 ```
 
-✔ ID should be used only once on a page.
-
 ---
 
-## 5. Difference Between Class and ID
+## 🌈 4. RGB Colors
 
-| Class                      | ID                      |
-| -------------------------- | ----------------------- |
-| Used for multiple elements | Used for single element |
-| Reusable                   | Unique                  |
-| CSS selector: `.` dot      | CSS selector: `#` hash  |
-| Example: `.box`            | Example: `#box`         |
-
----
-
-## 6. Simple Example
-
-```html id="e8m3t6"
-<div class="box">Box 1</div>
-<div class="box">Box 2</div>
-
-<h1 id="title">Main Title</h1>
-```
-
-```css id="k5p9v2"
-.box{
-   background-color: yellow;
-}
-
-#title{
-   text-align: center;
+```css
+h1 {
+    color: rgb(255, 0, 0);
 }
 ```
----
-
-## 7. CSS Properties
-
-### Color Property
-
-```
-color: red;
-```
-
-Changes text color.
 
 ---
 
-### Background Color
+## 🖼️ 5. Background Image
 
-```css 
-background-color: yellow;
-```
-
-Changes background color.
-
----
-
-### Font Size
-
-```css 
-font-size: 20px;
-```
-
-Changes text size.
-
----
-
-### Text Align
-
-```css 
-text-align: center;
-```
-
-Aligns text.
-
----
-
-### Border Property
-
-```css 
-border: 2px solid black;
-```
-
-Adds border around elements.
-
----
-
-### Padding Property
-
-```css 
-padding: 10px;
-```
-
-Adds space inside elements.
-
----
-
-### Margin Property
-
-```css 
-margin: 20px;
-```
-
-Adds outside spacing.
-
----
-
-## 8. Simple CSS Example
-
-```html 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-h1{
-   color: blue;
-   text-align: center;
+```css
+body {
+    background-image: url("image.jpg");
 }
-
-p{
-   font-size: 20px;
-   background-color: lightgray;
-}
-</style>
-</head>
-
-<body>
-
-<h1>Welcome</h1>
-<p>This is CSS Example</p>
-
-</body>
-</html>
 ```
+
+### Control Background Image
+
+```css
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+```
+
+---
+
+## 🎛️ 6. Background Properties
+
+| Property            | Description           |
+| ------------------- | --------------------- |
+| background-color    | Sets background color |
+| background-image    | Adds image background |
+| background-size     | Controls image size   |
+| background-position | Sets image position   |
+| background-repeat   | Repeat or no-repeat   |
 
 ---
 
 ## ✍️ Hands-On Exercise
 
-Create:
+Create a webpage and:
 
-* One heading with color
-* One paragraph with background color
-* One bordered box
-* One centered text
+* Change text color
+* Add background color
+* Insert a background image
+* Style headings with colors
+
+---
+
+## 📝 Homework
+
+Design a **simple landing page background** using:
+
+✔ Gradient or solid color
+✔ Text color contrast
+✔ Background image (optional)
+✔ Clean UI styling
 
 ---
 
-# 📝 Homework
-
-Apply these properties to your assignment.
-
-* Heading
-* Paragraph
-* Background color
-* Border
-* Font size
-
----
 [← Previous Day](day-2.md) | [Back to Week 2](README.md) | [Next Day →](day-4.md)

@@ -1,227 +1,174 @@
-# 📅 Day 4: CSS Grid Practice — Complex Page Layouts 📊
+# 📅 Day 4 — Advanced CSS Grid
 
 ## 🎯 Today's Goals
 
-- 📊 Build a magazine-style layout with Grid
-- 🖼️ Create masonry-like gallery layouts
-- 🔀 Combine Flexbox inside Grid for hybrid layouts
-- 📱 Make Grid layouts responsive
+* Learn Advanced CSS Grid Properties
+* Understand `grid-area`
+* Learn `grid-column` & `grid-row`
+* Use `justify-items` & `align-items`
+* Build advanced responsive layouts
 
 ---
 
-## 📘 Lesson Content
+## 📖 Lesson Content
 
-### Magazine-Style Layout
+## 🚀 1. What is Advanced CSS Grid?
 
-```css
-.magazine {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  gap: 1.5rem;
-  padding: 2rem;
-}
+Advanced Grid gives **more control** over layout design.
 
-/* Featured article spans full width */
-.article--featured {
-  grid-column: 1 / -1; /* -1 means last line */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
+You can:
 
-/* Large article spans 2 columns */
-.article--large {
-  grid-column: span 2;
-  grid-row: span 2;
-}
+* Control item placement
+* Span rows & columns
+* Create named areas
+* Align grid items
+* Build complex layouts easily
 
-/* Regular articles take 1 cell each */
-.article--regular {
-  grid-column: span 1;
+---
+
+## 📦 2. Grid Column & Grid Row
+
+Control how many rows or columns an item uses.
+
+### Grid Column
+
+```css id="ag1"
+.box1 {
+    grid-column: 1 / 3;
 }
 ```
 
-### Responsive Grid — No Media Queries
+👉 Box1 spans from column 1 to 3
 
-```css
-/* Auto-responsive card grid */
-.auto-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+### Grid Row
+
+```css id="ag2"
+.box2 {
+    grid-row: 1 / 3;
 }
 ```
 
-### Grid with Media Queries
+👉 Box2 spans across rows
 
-```css
-.dashboard {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "aside"
-    "footer";
-  grid-template-columns: 1fr;
-  gap: 1rem;
+---
+
+## 🎯 3. Grid Area
+
+Use `grid-area` to place items.
+
+```css id="ag3"
+.box {
+    grid-area: 1 / 1 / 3 / 3;
 }
+```
 
-@media (min-width: 768px) {
-  .dashboard {
-    grid-template-columns: 250px 1fr;
+Meaning:
+
+* Row Start
+* Column Start
+* Row End
+* Column End
+
+---
+
+## 🗺️ 4. Grid Template Areas
+
+Create named layout sections.
+
+```css id="ag4"
+.container {
+    display: grid;
     grid-template-areas:
-      "header header"
-      "nav    main"
-      "nav    aside"
-      "footer footer";
-  }
-}
-
-@media (min-width: 1024px) {
-  .dashboard {
-    grid-template-columns: 250px 1fr 300px;
-    grid-template-areas:
-      "header header header"
-      "nav    main   aside"
-      "footer footer footer";
-  }
+        "header header"
+        "sidebar content"
+        "footer footer";
 }
 ```
 
-### Combining Flexbox & Grid
+Assign areas:
 
-Use Grid for the overall page layout, Flexbox for components inside:
-
-```css
-/* Grid for page structure */
-.page {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-}
-
-/* Flexbox for navbar inside grid */
-.page__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
-/* Grid for content cards */
-.page__main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-
-/* Flexbox for individual card */
-.card {
-  display: flex;
-  flex-direction: column;
-}
-
-.card__body { flex: 1; }
-```
-
-### Grid Masonry-like Effect
-
-```css
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.gallery__item:nth-child(1) { grid-row: span 2; }
-.gallery__item:nth-child(4) { grid-column: span 2; }
-.gallery__item:nth-child(7) { grid-row: span 2; grid-column: span 2; }
-
-.gallery__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
+```css id="ag5"
+.header {
+    grid-area: header;
 }
 ```
 
 ---
 
-## 🛠️ Hands-On Exercise
+## 📍 5. Justify Items
 
-### Build a Dashboard Layout
+Aligns items **horizontally** inside grid cells.
 
-Create a full admin dashboard with:
-- Top navigation bar (Flexbox)
-- Left sidebar with menu items (Grid area)
-- Main content area with stats cards (Grid + Flexbox)
-- Right panel with activity feed
-
-```html
-<div class="dashboard">
-  <header class="dashboard__header">
-    <h1>Admin Dashboard</h1>
-    <div class="user-menu">Welcome, Admin</div>
-  </header>
-
-  <nav class="dashboard__sidebar">
-    <ul>
-      <li>📊 Dashboard</li>
-      <li>👥 Users</li>
-      <li>📦 Products</li>
-      <li>📈 Analytics</li>
-      <li>⚙️ Settings</li>
-    </ul>
-  </nav>
-
-  <main class="dashboard__main">
-    <div class="stats-grid">
-      <div class="stat-card">
-        <h3>1,234</h3>
-        <p>Total Users</p>
-      </div>
-      <div class="stat-card">
-        <h3>$56,789</h3>
-        <p>Revenue</p>
-      </div>
-      <div class="stat-card">
-        <h3>892</h3>
-        <p>Orders</p>
-      </div>
-      <div class="stat-card">
-        <h3>98.5%</h3>
-        <p>Uptime</p>
-      </div>
-    </div>
-  </main>
-
-  <aside class="dashboard__aside">
-    <h3>Recent Activity</h3>
-    <ul class="activity-feed">
-      <li>New user registered</li>
-      <li>Order #1234 completed</li>
-      <li>Product updated</li>
-    </ul>
-  </aside>
-
-  <footer class="dashboard__footer">© 2025 NextGen Arts</footer>
-</div>
+```css id="ag6"
+.container {
+    justify-items: center;
+}
 ```
+
+---
+
+## 📐 6. Align Items
+
+Aligns items **vertically** inside grid cells.
+
+```css id="ag7"
+.container {
+    align-items: center;
+}
+```
+
+---
+
+## 🔥 7. Minmax Function
+
+Create flexible responsive columns.
+
+```css id="ag8"
+.container {
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+```
+
+👉 Minimum **150px**, maximum **1fr**
+
+---
+
+## 🧠 Easy Understanding Table
+
+| Property            | Purpose               |
+| ------------------- | --------------------- |
+| grid-column         | Span columns          |
+| grid-row            | Span rows             |
+| grid-area           | Item placement        |
+| grid-template-areas | Named layout sections |
+| justify-items       | Horizontal alignment  |
+| align-items         | Vertical alignment    |
+| minmax()            | Flexible sizing       |
+
+---
+
+## ✍️ Hands-On Exercise
+
+Create a webpage and:
+
+* Build a grid layout
+* Use `grid-column` & `grid-row`
+* Create named sections using `grid-template-areas`
+* Center items using alignment properties
+* Use `minmax()` for responsive columns
 
 ---
 
 ## 📝 Homework
 
-1. Complete the dashboard with full CSS styling
-2. Make the dashboard **fully responsive** — sidebar collapses on mobile
-3. Create a **blog homepage** layout with featured post spanning full width and a grid of smaller posts below
-4. Build a **portfolio gallery** with items of varying sizes using `grid-column: span` and `grid-row: span`
+Design a **Responsive Admin Dashboard**:
+
+✔ Create Header, Sidebar, Main Content, Footer
+✔ Use `grid-template-areas`
+✔ Apply `grid-column` / `grid-row`
+✔ Add spacing & alignment
+✔ Use `minmax()` for responsive layout
 
 ---
 
-[← Day 3](day-3.md) | [Back to Week 3](README.md) | [Day 5 →](day-5.md)
+[← Previous Day](day-3.md) | [Back to Week 2](README.md) | [Next Day →](day-5.md)

@@ -14,12 +14,12 @@
 
 | Day | Topic | Duration |
 |-----|-------|----------|
-| [Day 1](day-01.md) | HTML form tag and Semantic and Non-Semantic Tags|2 hours|
-| [Day 2](day-02.md) | GitHub introduction| 2 hours |
-| [Day 3](day-03.md) | Introduction CSS Box Model — Margin, Padding & Border | 2 hours |
-| [Day 4](day-04.md) | Colors, Typography & Google Fonts | 2 hours |
-| [Day 5](day-05.md) | Backgrounds, Gradients & Shadows | 2 hours |
-| [Day 6](day-06.md) | Transitions, Transforms & Project Day | 2 hours |
+| [Day 1](day-01.md) | CSS Introduction & Selectors |2 hours|
+| [Day 2](day-02.md) | Typography Properties | 2 hours |
+| [Day 3](day-03.md) | Colors & Backgrounds (CSS Basics) | 2 hours |
+| [Day 4](day-04.md) | CSS Box Model | 2 hours |
+| [Day 5](day-05.md) | CSS Display Property | 2 hours |
+| [Day 6](day-06.md) | CSS Positioning & Project Day | 2 hours |
 
 ---
 
@@ -27,7 +27,7 @@
 
 👉 [View Weekly Assignment](Assigment/README.md)
 
-**Project:** Style your **Personal Bio Page** from Week 1 with CSS — add colors, fonts, layout, hover effects, and a polished professional look.
+**Project:** Style your **portfolio Website** from Week 1 with CSS — add colors, fonts, layout, hover effects, and a polished professional look.
 
 ---
 

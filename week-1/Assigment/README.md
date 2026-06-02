@@ -4,7 +4,7 @@
 
 ## 🎯 Weekly Assignment: Personal Bio Page
 
-Build a complete **Personal Bio Page** using only HTML5 (no CSS yet). This is your first real project!
+Build a complete **portfolio Website** using only HTML5 (no CSS yet). This is your first real project!
 
 ---
 
@@ -20,6 +20,7 @@ Build a complete **Personal Bio Page** using only HTML5 (no CSS yet). This is yo
 - [ ] An unordered list of skills (minimum 5)
 - [ ] An ordered list of goals or hobbies (minimum 3)
 - [ ] An education/experience table with `<thead>`, `<tbody>`, `<tfoot>`
+- [ ] contact form
 - [ ] Social media links
 
 ---
