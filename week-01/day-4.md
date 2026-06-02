@@ -58,4 +58,4 @@ Create:
 
 Create a Simple Personal Web Page
 ---
-[← Previous Day](day-3.md) | [Back to Week 1](README.md) | [Next Day →](day-5.md)
+[← Previous Day](day-3.md) | [Back to Week 01](./README.md) | [Next Day →](day-5.md)

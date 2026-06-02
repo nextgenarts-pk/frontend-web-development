@@ -1,4 +1,4 @@
-# Day 5 — Friday: Review + String Methods
+# Day 5 —  Review + String Methods
 
 ## 📖 Introduction
 

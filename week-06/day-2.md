@@ -1,4 +1,4 @@
-# 📅 Day 2 — Tuesday: Variables — storing data
+# 📅 Day 2 — Variables — storing data
 
 ## 🧠 Topics Covered
 

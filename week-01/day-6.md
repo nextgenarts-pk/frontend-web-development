@@ -205,4 +205,4 @@ Create a Student Registration Form using:
 
 ---
 
-[← Previous Day](day-5.md) | [Back to Week 1](README.md) | [Next Week →](../week-2/README.md)
+[← Previous Day](day-5.md) | [Back to Week 01](README.md) | [Next Week →](../week-2/README.md)

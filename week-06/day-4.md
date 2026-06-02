@@ -1,4 +1,4 @@
-## 📅 Day 4 — Thursday: Strings & Template Literals
+## 📅 Day 4 —  Strings & Template Literals
 
  # Template Literals in JavaScript
  
