@@ -5,7 +5,11 @@
 
 ## 🎯 Weekly Assignment: Student Registration Web Project
 
+<<<<<<< HEAD
 Build a complete **Portfolio Website** using HTML + CSS. 
+=======
+Build a complete **portfolio Website** using HTML + CSS. 
+>>>>>>> 371a21879cd55a6d770964fd28357cb8e3b1fa91
 
 ---
 
