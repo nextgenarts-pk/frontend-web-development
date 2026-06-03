@@ -383,3 +383,4 @@ After completing this lesson, students will understand:
 ✅ Using the browser console
 
 ---
+[← Back to Week 6](./Readme.md) | [Day 2 →](day-2.md)
