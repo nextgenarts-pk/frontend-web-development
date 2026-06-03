@@ -1,38 +1,3 @@
-<p  alin ="center">
-  <img src="https://nextgenarts.pk/logo.png" alt="NextGen Arts Logo" width="200">
-</p>
-
-<h1 alin="center">🚀 Full Stack Web Development Course Integrated with AI</h1>
-
-<p alig="center">
-  <img src="https://img.shields.io/badge/Duration-24%20Weeks%20(6%20Months)-blue" alt="Duration">
-  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-green" alt="Level">
-  <img src="https://img.shields.io/badge/Language-English%20%2F%20Urdu-orange" alt="Language">
-  <img src="https://img.shields.io/badge/Mode-Online%20%2B%20In--Person-purple" alt="Mode">
-  <img src="https://img.shields.io/badge/Certificate-Nationally%20%26%20Internationally%20Recognized-gold" alt="Certificate">
-</p>
-
-<p alig="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" alt="Express">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="AI Integration">
-</p>
-
-<p alin="center">
-  <strong>By <a href="https://nextgenarts.pk">NextGen Arts SMC-Private Ltd.</a></strong><br>
-  📍 Gilgit Baltistan, Pakistan 🇵🇰
-</p>
-
----
-
 ## 📖 Course Description
 
 Welcome to the **Frontend Web Development Course — Integrated with AI** by **NextGen Arts**! This comprehensive **12-week (3-month)** program takes you from absolute beginner to a **job-ready Frontend web developer** equipped with modern AI-powered development skills.
