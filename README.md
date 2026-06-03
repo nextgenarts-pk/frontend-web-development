@@ -2,9 +2,9 @@
   <img src="https://nextgenarts.pk/logo.png" alt="NextGen Arts Logo" width="200">
 </p>
 
-<h1 align="center">🚀 Full Stack Web Development Course Integrated with AI</h1>
+<h1 alin="center">🚀 Full Stack Web Development Course Integrated with AI</h1>
 
-<p align="center">
+<p alig="center">
   <img src="https://img.shields.io/badge/Duration-24%20Weeks%20(6%20Months)-blue" alt="Duration">
   <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-green" alt="Level">
   <img src="https://img.shields.io/badge/Language-English%20%2F%20Urdu-orange" alt="Language">
@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Certificate-Nationally%20%26%20Internationally%20Recognized-gold" alt="Certificate">
 </p>
 
-<p align="center">
+<p alig="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind">
@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="AI Integration">
 </p>
 
-<p align="center">
+<p alin="center">
   <strong>By <a href="https://nextgenarts.pk">NextGen Arts SMC-Private Ltd.</a></strong><br>
   📍 Gilgit Baltistan, Pakistan 🇵🇰
 </p>
@@ -99,45 +99,6 @@ You'll master **HTML, CSS and  JavaScript**  and learn to build **real-world pro
 | [Week 11](week-11/) | React Router & Multi-Page Apps | Multi-Page Blog App |
 | [Week 12](week-12/) | State Management & Advanced React Patterns | E-Commerce Product Catalog |
 
-### 🔴 Phase 4: Backend Development (Weeks 13–16)
-
-| Week | Topic | Weekly Project |
-|------|-------|----------------|
-| [Week 13](week-13/) | Node.js & Express.js Fundamentals | REST API (To-Do) |
-| [Week 14](week-14/) | RESTful API Design & Development | Blog API with CRUD |
-| [Week 15](week-15/) | MongoDB & Mongoose | Database-Driven Notes App |
-| [Week 16](week-16/) | Authentication & Security | Secure User Auth System |
-
-### 🟣 Phase 5: Full Stack Integration (Weeks 17–18)
-
-| Week | Topic | Weekly Project |
-|------|-------|----------------|
-| [Week 17](week-17/) | Full Stack App — React + Express + MongoDB | Full Stack Task Manager |
-| [Week 18](week-18/) | File Uploads, Email & Third-Party Services | Media Sharing Platform |
-
-### 🤖 Phase 6: AI-Powered Web Development (Weeks 19–20)
-
-| Week | Topic | Weekly Project |
-|------|-------|----------------|
-| [Week 19](week-19/) | AI Fundamentals for Web Developers | AI Content Generator |
-| [Week 20](week-20/) | Building AI-Integrated Web Applications | AI Chatbot & Smart Search App |
-
-### 🔵 Phase 7: Modern Web Technologies (Weeks 21–22)
-
-| Week | Topic | Weekly Project |
-|------|-------|----------------|
-| [Week 21](week-21/) | TypeScript & Next.js | Next.js Blog with TypeScript |
-| [Week 22](week-22/) | Testing, CI/CD & DevOps Basics | Tested & Deployed Full Stack App |
-
-### 🏆 Phase 8: Capstone & Career (Weeks 23–24)
-
-| Week | Topic | Weekly Project |
-|------|-------|----------------|
-| [Week 23](week-23/) | Final Project Development | [Capstone Project Sprint](final-project/) |
-| [Week 24](week-24/) | Portfolio, Deployment & Career Prep | Professional Portfolio & Demo Day |
-
----
-
 ## 🛠️ Tools & Software Required
 
 | Tool | Purpose | Download |
@@ -146,11 +107,6 @@ You'll master **HTML, CSS and  JavaScript**  and learn to build **real-world pro
 | **Google Chrome** | Web browser with DevTools | [Download](https://www.google.com/chrome/) |
 | **Git** | Version control | [Download](https://git-scm.com/) |
 | **GitHub** | Code hosting & collaboration | [Sign Up](https://github.com/) |
-| **Node.js (LTS)** | JavaScript runtime | [Download](https://nodejs.org/) |
-| **MongoDB Compass** | Database GUI | [Download](https://www.mongodb.com/products/compass) |
-| **Postman** | API testing | [Download](https://www.postman.com/) |
-| **Figma** | UI/UX design | [Sign Up](https://www.figma.com/) |
-| **Vercel** | Frontend deployment | [Sign Up](https://vercel.com/) |
 
 > 📌 All tools are **free** to download and use.
 
@@ -159,24 +115,15 @@ You'll master **HTML, CSS and  JavaScript**  and learn to build **real-world pro
 ## 📊 Learning Path Visualization
 
 ```
-Week 1-4     Week 5-8       Week 9-12      Week 13-16
-┌─────────┐  ┌───────────┐  ┌───────────┐  ┌───────────────┐
-│  HTML5  │  │JavaScript │  │  React.js │  │  Node.js &    │
-│  CSS3   │→ │  ES6+     │→ │  Hooks    │→ │  Express.js   │
-│ Tailwind│  │  DOM/APIs │  │  Router   │  │  MongoDB      │
-└─────────┘  └───────────┘  └───────────┘  └───────────────┘
-                                                    │
-Week 24      Week 21-22     Week 19-20     Week 17-18
-┌─────────┐  ┌───────────┐  ┌───────────┐  ┌───────────────┐
-│Portfolio│  │TypeScript │  │    AI     │  │  Full Stack   │
-│ Career  │← │ Next.js   │← │Integration│← │  Integration  │
-│Demo Day │  │Testing/CD │  │ Chatbots  │  │  Auth & APIs  │
-└─────────┘  └───────────┘  └───────────┘  └───────────────┘
-```
-
+Week 1-4     Week 5-8       Week 9-12     
+┌─────────┐  ┌───────────┐  ┌───────────┐ 
+│  HTML5  │  │JavaScript │  │  React.js │ 
+│  CSS3   │→ │  ES6+     │→ │  Hooks    │
+│ Tailwind│  │  DOM/APIs │  │  Router   │ 
+└─────────┘  └───────────┘  └───────────┘  
 ---
 
-## 🎓 Certificate
+### 🎓 Certificate
 
 Upon successful completion of the course and the final capstone project, students will receive a **Nationally & Internationally recognized certificate** from **NextGen Arts SMC-Private Ltd.**
 
