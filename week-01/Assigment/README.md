@@ -4,7 +4,7 @@
 
 ## 🎯 Weekly Assignment: Personal Bio Page
 
-Build a complete **portfolio Website** using only HTML5 (no CSS yet). This is your first real project!
+Build a **portfolio Website** using only HTML5 (no CSS yet). This is your first real project!
 
 ---
 

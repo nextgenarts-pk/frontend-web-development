@@ -1,5 +1,5 @@
 
-# 📅 Day 2 — Basic Text Tags
+# 📅 Day 2 — HTML  Basic Text Tags
 
 ## 🎯 Today's Goals
 

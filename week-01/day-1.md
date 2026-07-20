@@ -1,4 +1,4 @@
-# Week 1: Introduction to Frontend Web Development| 
+# Week 1: Introduction to Frontend Web Development
 
 ## 📋 Prerequisites
 
