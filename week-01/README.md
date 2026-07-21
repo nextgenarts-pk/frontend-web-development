@@ -16,20 +16,26 @@ By the end of this week, students will be able to:
 ---
 
 ## 📋 Week Overview
-Day	Topic	Duration
 
-* Day 1	Introduction to Web Development & Internet Basics	|2 Hours|
-* Day 2	VS Code, HTML Boilerplate & Basic Text Tags	|2 Hours|
-* Day 3	Advanced Text & List Tags	|2 Hours|
-* Day 4	Text Tag , favicon, Links &  Images |2 Hours|
-* Day 5	Table tags & HTML Layout / Structure Tags	|2 Hours|
-* Day 6	HTML From Tag & Semantic and Non-Semantic Tags	|2 Hours|
+| Day   | Topic      | Duration        |
+|-------|------------|-----------------|
+| [Day 1](day-01.md) | Introduction to Web Development & Internet Basics |1 hours  |
+| [Day 2](day-02.md) | Typography Properties                | 1 hours |
+| [Day 3](day-03.md) | Colors , Backgrounds & CSS Box Model | 1 hours |
+| [Day 4](day-04.md) | CSS Display Property                 | 1 hours |
+| [Day 5](day-05.md) | CSS Positioning & Project Day        | 1 hours |
+---
+* Day 1		|1 Hours|
+* Day 2	VS Code, HTML Boilerplate & Basic Text Tags	|1 Hours|
+* Day 3	Advanced Text & List Tags	|1 Hours|
+* Day 4	Text Tag , favicon, Links , Images & HTML Layout / Structure Tags |1 Hours|
+* Day 5	Table tags ,HTML From Tag & Semantic and Non-Semantic Tags	|1 Hours|
 
 ---
 
 ## 📝 Weekly Assignment
 
-👉 [View Weekly Assignment](Assignment/README.md)
+👉 [View Weekly Assignment](./Assigment/README.md)
 
 **Project:** Build a **portfolio Website** using only HTML5 — includes your name, photo, bio, skills list, education table, From and social links.
 

@@ -1,11 +1,12 @@
 
-# 📅 Day 4 — Text Tag , favicon, Links &  Images
+# 📅 Day 4 — Text Tag , favicon, Links , Images & HTML Layout / Structure Tags
 
 ## 🎯 Today's Goals
 
 * learn more text tags
 * Learn links tag 
 * Learn images tag
+* Learn HTML structure Tags
 ---
 
 ## 📖 Lesson Content
@@ -41,6 +42,20 @@
 </head>
 
 ---
+### 5. HTML Structure Tags
+
+<div>Block Section</div>
+
+<header>Block element</header>
+
+<nav>Navigation</nav>
+
+<button>Read more </button>
+
+<section>Block element </section>
+
+<footer>Block element </Footer>
+
 ## ✍️ Hands-On Exercise
 
 Create:
